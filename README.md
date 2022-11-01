@@ -4,6 +4,6 @@ This is (currently) an in-progress repo for mucollective.co renewal. This websit
 
 # People
 
-Hyeok Kim - rebuilding the template
-Lily Ge - building the individual md files
-Fumeng Yang - documentation & style 
+Hyeok Kim - rebuilding the template. 
+Lily Ge - building the individual md files. 
+Fumeng Yang - documentation & style   
