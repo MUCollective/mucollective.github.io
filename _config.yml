@@ -22,7 +22,7 @@ title: MU Collective website
 email: hyeokkim777@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is MU Collective's website.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/mucollective.co" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username:  see-mike-out
