@@ -27,7 +27,7 @@ header nav.glb-nav-list a {
   display: block;
   padding: 0.25rem 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   cursor: pointer;
   border-radius: 0.25rem;
   color: black;
@@ -139,6 +139,7 @@ header .nav-toggle {
 }
 
 footer {
+  margin-top: 1rem;
   border-top: 1px solid #dddddd;
   padding: 1rem;
   color: #999999;
@@ -153,4 +154,20 @@ main.container {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+h2 {
+  margin: 0 0 0.5rem 0;
+  padding: 0;
+  font-weight: 500;
+  line-height: 100%;
+  color: $key-color;
+
+  @media screen and (min-width: 741px) {
+    font-size: 1.2rem;
+  }
+
+  @media screen and (max-width: 740px) {
+    font-size: 1rem;
+  }
 }
