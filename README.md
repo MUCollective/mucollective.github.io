@@ -59,3 +59,14 @@ additionals:  # additional information
 ### content
 
 Provde an abstract only
+
+## People
+
+Edit `_data/people.yml` file
+
+- For faculty/current student, provide their `name`, `role` (professor, phd student, post doc, etc), `department`, `school`, `image`, and website url (`link`).
+- For alumni, provide their `name`, current `position`, and website url (`link`).
+
+## Assets
+
+All the images are stored under `assets/images` and pdfs are under `assets/papers`.
