@@ -1,0 +1,5 @@
+# text goes in the main page
+# each paragraph start with '-'
+
+- We are a research lab working at the intersection of information visualization and uncertainty communication. Our mission is to combat misinterpretations and overconfidence in data by developing visual representations and human-in-the-loop tools that express uncertainty and align with how people think. Topics we like include sampling-oriented uncertainty visualizations, eliciting and modeling beliefs about data, automated visualization reasoning and generation, and Bayesian statistics.
+- The MU Collective is directed by <a href="http://users.eecs.northwestern.edu/~jhullman/index.html">Jessica Hullman</a> and <a href="http://www.mjskay.com/">Matt Kay</a> of Northwestern University.

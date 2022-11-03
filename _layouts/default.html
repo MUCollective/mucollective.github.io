@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <meta name="generator" content="Jekyll v3.9.2" />
+  <meta property="og:title" content="MU Collective" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="description" content="MU Collective is a research lab in Northwestern University." />
+  <meta property="og:description" content="MU Collective is a research lab in Northwestern University." />
+  <link rel="canonical" href="http://mucollective.co/" />
+  <meta property="og:url" content="http://mucollective.co/" />
+  <meta property="og:site_name" content="MU Collective" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:title" content="MU Collective" />
+  <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"MU Collective is a research lab in Northwestern University.","headline":"MU Collective","name":"MU Collective","url":"http://mucollective.co/"}</script>
+
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+</head>
+
+<body>
+  <header class="container">
+    <h1> <img src="/assets/images/muLogoLight.png" /> Midwest Uncertainty Collective</h1>
+    <nav class="glb-nav-list">
+      <span class="nav-toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
+      </span>
+      <a href="/">Home</a>
+      <a href="/people/">People</a>
+      <a href="/projects/">Projects</a>
+      <a href="/papers/">Papers</a>
+      <a href="/work-with-us/">Work with us</a>
+    </nav>
+  </header>
+  <main class="container">
+    {{ content }}
+  </main>
+  <footer class="container">
+    &copy; 2022 MU Collective
+  </footer>
+</body>
+
+</html>

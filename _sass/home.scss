@@ -1,0 +1,64 @@
+.main-wrap {
+  @media screen and (min-width: 741px) {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  @media screen and (max-width: 740px) {
+    display: block;
+  }
+}
+
+.main-wrap .home-display {
+  font-weight: 300;
+
+  @media screen and (min-width: 741px) {
+    font-size: 1.5rem;
+    line-height: 150%;
+  }
+
+  @media screen and (max-width: 740px) {
+    font-size: 1.25rem;
+    line-height: 140%;
+  }
+}
+
+.main-wrap .text {
+  @media screen and (min-width: 741px) {
+    width: 50%;
+  }
+}
+
+.main-wrap .image-grid {
+  @media screen and (min-width: 741px) {
+    width: 50%;
+  }
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
+}
+
+.main-wrap .image-grid a {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.main-wrap .image-grid a img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #dddddd;
+  border-radius: 0.25rem;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.main-wrap .image-grid a img:hover {
+  box-shadow: 0 0 2.5px rgba(0, 0, 0, 0.1), 0 0 7px rgba(0, 0, 0, 0.05);
+}
