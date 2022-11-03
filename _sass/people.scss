@@ -1,0 +1,109 @@
+section.people-grid {
+  display: grid;
+
+  @media screen and (min-width: $desktop-min) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  @media screen and (max-width: $mobile-max) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  @media screen and (max-width: 560px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media screen and (max-width: 460px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  column-gap: 1rem;
+}
+
+article.people-item {
+  width: 100%;
+
+  div.people-image {
+    width: 100%;
+    margin-bottom: 0.5rem;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.35rem;
+    }
+  }
+
+  div.people-info {
+    span {
+      display: block;
+      margin-bottom: 0.15rem;
+      line-height: 130%;
+    }
+
+    span svg {
+      width: 0.85rem;
+      height: 0.85rem;
+      vertical-align: text-bottom;
+    }
+
+    span.name {
+      font-size: 1rem;
+      color: #333333;
+    }
+
+    span.role,
+    span.school,
+    span.department {
+      font-size: 0.85rem;
+      color: #666666;
+    }
+
+    span.link a {
+      font-size: 0.85rem;
+      color: $key-color;
+      text-decoration: none;
+    }
+  }
+}
+
+.alumni-list-wrap {
+  @media screen and (min-width: $desktop-min) {
+    display: flex;
+    flex-wrap: nowrap;
+    ul {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: $mobile-max) {
+    display: block;
+    ul {
+      width: 100%;
+    }
+    ul:last-of-type {
+      padding-top: 1rem;
+    }
+  }
+
+  ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 0.5rem 0;
+      font-size: 0.9rem;
+      color: #666666;
+      a {
+        color: $key-color;
+        text-decoration: none;
+      }
+      span.name {
+        color: #454545;
+      }
+    }
+  }
+
+}

@@ -1,6 +1,8 @@
 $key-color: #4e2a84;
 $light-purple-bg: rgba(78, 42, 132, 0.1);
 $default-font: 'Source Sans Pro', sans-serif;
+$desktop-min: 781px;
+$mobile-max: 780px;
 
 html,
 body {
@@ -43,12 +45,12 @@ header {
   display: flex;
   justify-content: space-between;
 
-  @media screen and (min-width: 741px) {
+  @media screen and (min-width: $desktop-min) {
     padding: 2rem 1rem 1rem 1rem;
     margin-bottom: 2rem;
   }
 
-  @media screen and (max-width: 740px) {
+  @media screen and (max-width: $mobile-max) {
     padding: 1rem;
     margin-bottom: 1rem;
   }
@@ -60,11 +62,11 @@ header h1 {
   font-weight: 400;
   line-height: 100%;
 
-  @media screen and (min-width: 741px) {
+  @media screen and (min-width: $desktop-min) {
     font-size: 1.5rem;
   }
 
-  @media screen and (max-width: 740px) {
+  @media screen and (max-width: $mobile-max) {
     font-size: 1.2rem;
   }
 }
@@ -73,14 +75,14 @@ header h1 img {
   width: auto;
   vertical-align: bottom;
 
-  @media screen and (min-width: 741px) {
+  @media screen and (min-width: $desktop-min) {
     height: 3rem;
     margin-top: -0.75rem;
     margin-bottom: -0.75rem;
     margin-right: 0.5rem;
   }
 
-  @media screen and (max-width: 740px) {
+  @media screen and (max-width: $mobile-max) {
     height: 2rem;
     margin-top: -0.5rem;
     margin-bottom: -0.5rem;
@@ -89,11 +91,11 @@ header h1 img {
 }
 
 header nav.glb-nav-list {
-  @media screen and (min-width: 741px) {
+  @media screen and (min-width: $desktop-min) {
     display: flex;
   }
 
-  @media screen and (max-width: 740px) {
+  @media screen and (max-width: $mobile-max) {
     position: absolute;
     right: 0.5rem;
     top: 0.5rem;
@@ -109,24 +111,24 @@ header nav.glb-nav-list {
 }
 
 header nav.glb-nav-list a {
-  @media screen and (max-width: 740px) {
+  @media screen and (max-width: $mobile-max) {
     display: none;
   }
 }
 
 header .nav-toggle {
 
-  @media screen and (min-width: 741px) {
+  @media screen and (min-width: $desktop-min) {
     display: none;
   }
 
-  @media screen and (max-width: 740px) {
+  @media screen and (max-width: $mobile-max) {
     display: block;
     padding: 0 0.5rem;
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: $mobile-max) {
   header nav.glb-nav-list:hover {
     border: 1px solid #dddddd;
     border-radius: 0.25rem;
@@ -163,11 +165,11 @@ h2 {
   line-height: 100%;
   color: $key-color;
 
-  @media screen and (min-width: 741px) {
+  @media screen and (min-width: $desktop-min) {
     font-size: 1.2rem;
   }
 
-  @media screen and (max-width: 740px) {
+  @media screen and (max-width: $mobile-max) {
     font-size: 1rem;
   }
 }

@@ -1,12 +1,12 @@
 .main-wrap {
-  @media screen and (min-width: 741px) {
+  @media screen and (min-width: $desktop-min) {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: start;
   }
 
-  @media screen and (max-width: 740px) {
+  @media screen and (max-width: $mobile-max) {
     display: block;
   }
 }
@@ -14,33 +14,31 @@
 .main-wrap .home-display {
   font-weight: 300;
 
-  @media screen and (min-width: 741px) {
+  @media screen and (min-width: $desktop-min) {
     font-size: 1.25rem;
     line-height: 150%;
     padding-right: 0.5rem;
   }
 
-  @media screen and (max-width: 740px) {
+  @media screen and (max-width: $mobile-max) {
     font-size: 1rem;
     line-height: 140%;
   }
 }
 
 .main-wrap .text {
-  @media screen and (min-width: 741px) {
+  @media screen and (min-width: $desktop-min) {
     width: 50%;
   }
 }
 
 .main-wrap .image-grid {
-  @media screen and (min-width: 741px) {
+  @media screen and (min-width: $desktop-min) {
     width: 50%;
   }
 
   display: grid;
   grid-template-columns: 50% 50%;
-  // flex-wrap: wrap;
-  // justify-content: space-between;
 }
 
 .main-wrap .image-grid a {
