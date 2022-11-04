@@ -14,6 +14,12 @@ Fumeng Yang - documentation & style
 
 Take a look on [this document for installing and configuring](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) and [this document for testing](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
 
+# How to run locally
+
+1. Install Ruby. [Guide](https://mac.install.guide/ruby/12.html)
+2. Install Jekyll: `gem install jekyll`
+3. Run: `jekyll serve`
+
 # How to Update
 
 ## Home
@@ -82,6 +88,5 @@ Example research area definition:
   cat: unquant-uncertainty # category to query for
   desc: We aim at communicating unquantified uncertainty. # description
 ```
-
 
 In paper post files, make sure to include a topic category and to match it to the category name in the research area definitions.
