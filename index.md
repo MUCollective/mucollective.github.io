@@ -27,7 +27,7 @@ title: "Home"
 <div class="posts-wrap">
   <div class="title-wrap">
     <h2>Recent Papers</h2>
-    <a href="/papers/">See all</a>
+    <a href="/mucollective.co/papers/">See all</a>
   </div>
   {% for post in site.posts | limit: 20 %}
     {% if post.category contains 'paper' %}
