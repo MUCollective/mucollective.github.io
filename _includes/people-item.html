@@ -1,6 +1,6 @@
 <article class="people-item">
   <div class="people-image">
-    <img src="{{include.image}}" alt="image of {{include.name}}" />
+    <img src="{{include.image | relative_url}}" alt="image of {{include.name}}" />
   </div>
   <div class="people-info">
     <span class="name">{{include.name}}</span>

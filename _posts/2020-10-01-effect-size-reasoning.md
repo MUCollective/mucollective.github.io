@@ -4,11 +4,11 @@ category: paper quant-uncerntainty
 title:  "Visual Reasoning Strategies for Effect Size Judgments and Decisions"
 authors: "Alex Kale, Matthew Kay, Jessica Hullman"
 venue: "IEEE Trans. Visualization & Comp. Graphics (Proc. INFOVIS) 2020"
-thumb: "/assets/images/paper-thumb-effect-size-reasoning.png"
-banner: "/assets/images/paper-banner-effect-size-reasoning.png"
+thumb: "assets/images/paper-thumb-effect-size-reasoning.png"
+banner: "assets/images/paper-banner-effect-size-reasoning.png"
 bestPaper: true
 caption: "Uncertainty visualization designs evaluated in our experiment."
-pdf: "/assets/papers/2022-Visual-Reasoning-Strategies-for-Effect-Size-Judgements.pdf"
+pdf: "assets/papers/2022-Visual-Reasoning-Strategies-for-Effect-Size-Judgements.pdf"
 github: "https://github.com/kalealex/effect-size-jdm"
 ---
 

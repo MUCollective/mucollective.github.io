@@ -3,13 +3,13 @@ faculty:
     role: Ginni Rometty Associate Professor
     department: Computer Science
     school: Northwestern University
-    image: /assets/images/people-jessica-hullman.jpeg
+    image: assets/images/people-jessica-hullman.jpeg
     link: http://users.eecs.northwestern.edu/~jhullman/
   - name: Matthew Kay
     role: Assistant Professor
     department: Computer Science, Communication
     school: Northwestern University
-    image: /assets/images/people-matthew-kay.jpeg
+    image: assets/images/people-matthew-kay.jpeg
     link: http://www.mjskay.com/
 
 current:
@@ -17,71 +17,71 @@ current:
     role: Post Doc Researcher
     department: Computer Science
     school: Northwestern University
-    image: /assets/images/people-fumeng-yang.png
+    image: assets/images/people-fumeng-yang.png
     link: http://www.fmyang.com/
   - name: Paula Kayongo
     role: PhD Student
     department: Computer Science
     school: Northwestern University
-    image: /assets/images/people-paula-kayongo.jpeg
+    image: assets/images/people-paula-kayongo.jpeg
   - name: Abhraneel Sarma
     role: PhD Student
     department: Computer Science
     school: Northwestern University
-    image: /assets/images/people-abhraneel-sarma.jpeg
+    image: assets/images/people-abhraneel-sarma.jpeg
     link: https://abhsarma.github.io/
   - name: Hyeok Kim
     role: PhD Student
     department: Computer Science
     school: Northwestern University
-    image: /assets/images/people-hyeok-kim.png
+    image: assets/images/people-hyeok-kim.png
     link: https://hyeok.me/
   - name: Priyanka Nanayakkara
     role: PhD Student
     department: Technology & Social Behavior
     school: Northwestern University
-    image: /assets/images/people-priyanka-nanayakkara.jpeg
+    image: assets/images/people-priyanka-nanayakkara.jpeg
     link: https://priyakalot.github.io/
   - name: Brian Hall
     role: PhD Student
     department: School of Information
     school: University of Michigan
-    image: /assets/images/people-brian-hall.jpeg
+    image: assets/images/people-brian-hall.jpeg
   - name: Maryam Hedayati
     role: PhD Student
     department: Computer Science + Learning Sciences 
     school: Northwestern University
-    image: /assets/images/people-maryam-hedayati.jpeg
+    image: assets/images/people-maryam-hedayati.jpeg
     link: https://www.linkedin.com/in/maryamhedayati/
   - name: Dongping Zhang
     role: PhD Student
     department: Technology & Social Behavior
     school: Northwestern University
-    image: /assets/images/people-dongping-zhang.jpeg
+    image: assets/images/people-dongping-zhang.jpeg
     link: https://www.dpzhang.com/
   - name: Taewook Kim
     role: PhD Student
     department: Technology & Social Behavior
     school: Northwestern University
-    image: /assets/images/people-taewook-kim.png
+    image: assets/images/people-taewook-kim.png
     link: https://taewookkim.com/
   - name: Lily Ge
     role: PhD Student
     department: Computer Science
     school: Northwestern University
-    image: /assets/images/people-lily-ge.jpeg
+    image: assets/images/people-lily-ge.jpeg
     link: https://lilyge.com/
   - name: Ziyang Guo
     role: PhD Student
     department: Computer Science
     school: Northwestern University
-    image: /assets/images/people-ziyang-guo.jpeg
+    image: assets/images/people-ziyang-guo.jpeg
     link: https://guoziyang27.github.io/
   - name: Mandi Cai
     role: PhD Student
     department: Technology & Social Behavior
     school: Northwestern University
-    image: /assets/images/people-mandi-cai.jpeg
+    image: assets/images/people-mandi-cai.jpeg
     link: https://mandi-cai.com/
 
 alumni:

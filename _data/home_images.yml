@@ -5,17 +5,17 @@
 # alt: alt text
 
 - url: "/a"
-  img: "/assets/images/home-thumb-explain-the-gap.gif"
+  img: "assets/images/home-thumb-explain-the-gap.gif"
   alt: "Drawing a bar chart, map, and line graph"
 
 - url: "/a"
-  img: "/assets/images/home-thumb-hops.gif"
+  img: "assets/images/home-thumb-hops.gif"
   alt: "Hypothetical Outcome Plot animation"
 
 - url: "/a"
-  img: "/assets/images/home-thumb-quantile-dotplot.png"
+  img: "assets/images/home-thumb-quantile-dotplot.png"
   alt: "A quantile dot plot"
 
 - url: "/a"
-  img: "/assets/images/home-thumb-tidybayes.png"
+  img: "assets/images/home-thumb-tidybayes.png"
   alt: "A confident interval plot of a bayesian model"
