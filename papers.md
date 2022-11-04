@@ -8,7 +8,7 @@ title: "Papers"
     <h2>Papers</h2>
   </div>
   {% for post in site.posts %}
-    {% if post.category == 'paper' %}
+    {% if post.category contains 'paper' %}
       {% assign currentdate = post.date | date: "%Y" %}
       {% if currentdate != date %}
         <h3 class="post-cat-title" id="y{{currentdate}}">{{ currentdate }}</h3>

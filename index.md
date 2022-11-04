@@ -30,7 +30,7 @@ title: "Home"
     <a href="/papers/">See all</a>
   </div>
   {% for post in site.posts | limit: 20 %}
-    {% if post.category == 'paper' %}
+    {% if post.category contains 'paper' %}
       {% assign currentdate = post.date | date: "%Y" %}
       {% if currentdate != date %}
         <h3 class="post-cat-title" id="y{{currentdate}}">{{ currentdate }}</h3>

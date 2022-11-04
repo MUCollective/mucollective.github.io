@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper unquant-uncertainty
 title:  "The Worst of Both Worlds: A Comparative Analysis of Errors in Learning from Data in Psychology and Machine Learning"
 authors: "Jessica Hullman, Sayash Kapoor, Priyanka Nanayakkara, Andrew Gelman, Arvind Narayanan"
 venue: "AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society"

@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper quant-uncerntainty
 title:  "Visual Reasoning Strategies for Effect Size Judgments and Decisions"
 authors: "Alex Kale, Matthew Kay, Jessica Hullman"
 venue: "IEEE Trans. Visualization & Comp. Graphics (Proc. INFOVIS) 2020"

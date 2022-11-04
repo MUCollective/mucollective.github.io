@@ -1,0 +1,11 @@
+- name: Visualizing quantified uncertainty
+  cat: quant-uncerntainty
+  desc: We aim at visualization quantified uncertainty.
+
+- name: Communicating unquantified uncertainty
+  cat: unquant-uncertainty
+  desc: We aim at communicating unquantified uncertainty.
+
+- name: Formalizing visualization-based communication
+  cat: formalization-comm
+  desc: We aim at formalizing visualizatino-based communication to support ...
