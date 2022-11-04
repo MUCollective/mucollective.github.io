@@ -1,5 +1,5 @@
 <header class="container">
-  <h1> <img src="/assets/images/muLogoLight.png" /> Midwest Uncertainty Collective</h1>
+  <h1> <img src="{{ "assets/images/muLogoLight.png" | relative_url }}" /> Midwest Uncertainty Collective</h1>
   <nav class="glb-nav-list">
     <span class="nav-toggle">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
@@ -9,9 +9,9 @@
       </svg>
     </span>
     <a href="/">Home</a>
-    <a href="/people/">People</a>
-    <a href="/research/">Research</a>
-    <a href="/papers/">Papers</a>
-    <a href="/work-with-us/">Work with us</a>
+    <a href="{{ "people/" | relative_url }}">People</a>
+    <a href="{{ "research/" | relative_url }}">Research</a>
+    <a href="{{ "papers/" | relative_url }}">Papers</a>
+    <a href="{{ "work-with-us/" | relative_url }}">Work with us</a>
   </nav>
 </header>
