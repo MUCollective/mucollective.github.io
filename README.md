@@ -36,7 +36,7 @@ Example: `2022-07-01-the-worst-of-both-words.md`
 ```yml
 ---
 layout: paper # do not change
-category: paper # do not change
+category: paper research_area_category # do not change "paper"
 title:  "Paper Title"
 authors: "Author 1, Author 2"
 venue: "Venue name"
@@ -70,3 +70,18 @@ Edit `_data/people.yml` file
 ## Assets
 
 All the images are stored under `assets/images` and pdfs are under `assets/papers`.
+
+## Research
+
+Edit `_data/research_areas.yml` file to add/remove research areas.
+
+Example research area definition:
+
+```yaml
+- name: Communicating unquantified uncertainty # name to show in the list
+  cat: unquant-uncertainty # category to query for
+  desc: We aim at communicating unquantified uncertainty. # description
+```
+
+
+In paper post files, make sure to include a topic category and to match it to the category name in the research area definitions.
