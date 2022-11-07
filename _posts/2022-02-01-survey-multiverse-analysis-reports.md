@@ -6,7 +6,7 @@ authors: "Brian D. Hall, Yang Liu, Yvonne Jansen, Pierre Dragicevic, Fanny Cheva
 venue: "Computer Graphics Forum"
 thumb: "assets/images/paper-thumb-survey-multiverse-analysis-reports.png"
 banner: "assets/images/paper-banner-survey-multiverse-analysis-reports.png"
-caption: "Overview of our process for collecting and coding impact statements and ethics reviews from NeurIPS 2022."
+caption: "Examples of multiverse analysis visualizations discussed in this survey."
 pdf: "assets/papers/2022-survey-multiverse-analysis-reports.pdf"
 ---
 
