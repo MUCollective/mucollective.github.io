@@ -1,16 +1,19 @@
 <article class="people-item">
   <div class="people-image">
-    <img src="{{include.image | relative_url}}" alt="image of {{include.name}}" />
+    <a href="{{include.link}}" target="_blank"><img src="{{include.image | relative_url}}"
+        alt="image of {{include.name}}" /></a>
   </div>
   <div class="people-info">
     <span class="name">{{include.name}}</span>
     <span class="role">{{include.role}}</span>
-    <span class="department"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-slash" viewBox="0 0 16 16">
-      <path d="M11.354 4.646a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708l6-6a.5.5 0 0 1 .708 0z"/>
-    </svg> {{include.department}}</span>
-    <span class="school"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-slash" viewBox="0 0 16 16">
-      <path d="M11.354 4.646a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708l6-6a.5.5 0 0 1 .708 0z"/>
-    </svg> {{include.school}}</span>
+    <span class="department"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-slash" viewBox="0 0 16 16">
+        <path d="M11.354 4.646a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708l6-6a.5.5 0 0 1 .708 0z" />
+      </svg> {{include.department}}</span>
+    <span class="school"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-slash" viewBox="0 0 16 16">
+        <path d="M11.354 4.646a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708l6-6a.5.5 0 0 1 .708 0z" />
+      </svg> {{include.school}}</span>
     {% if include.link %}
     <span class="link"><a href="{{include.link}}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
           fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
