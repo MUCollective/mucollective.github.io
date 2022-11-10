@@ -60,10 +60,6 @@ Existing undergraduates and Master’s students at Northwestern should contact M
     height: 0.9rem;
     vertical-align: text-bottom;
   }
-  p.contacts a {
-    color: #4e2a84;
-    text-decoration: none;
-  }
   p.contacts svg {
     color: #454545;
   }

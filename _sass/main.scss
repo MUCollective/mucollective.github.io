@@ -19,6 +19,16 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  color: #FF4D00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $key-color !important;
+  text-decoration: underline;
+}
+
 .container {
   @media screen and (min-width: $xlg) {
     width: 100%;
@@ -143,13 +153,7 @@ header.default {
 
     a {
       display: block;
-      text-decoration: none;
       color: black;
-    }
-
-    a:hover {
-      color: $key-color;
-      text-decoration: underline;
     }
 
     @media screen and (min-width: $xlg) {
@@ -278,7 +282,6 @@ h2 {
       font-size: 0.9rem;
       font-weight: 400;
       color: #333333;
-      text-decoration: none;
       margin-left: 1rem;
     }
   }

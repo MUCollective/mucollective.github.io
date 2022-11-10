@@ -140,13 +140,7 @@
 
       a {
         display: block;
-        text-decoration: none;
         color: black;
-      }
-
-      a:hover {
-        color: $key-color;
-        text-decoration: underline;
       }
 
       @media screen and (min-width: $xlg) {

@@ -70,8 +70,6 @@ article.people-item {
 
     span.link a {
       font-size: 0.85rem;
-      color: $key-color;
-      text-decoration: none;
     }
   }
 }
@@ -109,11 +107,6 @@ article.people-item {
       margin: 0 0 0.5rem 0;
       font-size: 0.9rem;
       color: #666666;
-
-      a {
-        color: $key-color;
-        text-decoration: none;
-      }
 
       span.name {
         color: #454545;
