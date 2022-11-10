@@ -1,12 +1,9 @@
 ---
 layout: default
-title: "Papers"
+title: "Publications"
 ---
 
-<div class="posts-wrap">
-  <div class="title-wrap">
-    <h2>Papers</h2>
-  </div>
+<div class="main-section-wrap">
   {% for post in site.posts %}
     {% if post.category contains 'paper' %}
       {% assign currentdate = post.date | date: "%Y" %}

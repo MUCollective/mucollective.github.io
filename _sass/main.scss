@@ -1,8 +1,10 @@
 $key-color: #4e2a84;
 $light-purple-bg: rgba(78, 42, 132, 0.1);
-$default-font: 'Source Sans Pro', sans-serif;
-$desktop-min: 781px;
-$mobile-max: 780px;
+$default-font: sans-serif;
+$xlg: 1200px;
+$lg: 960px;
+$md: 720px;
+$sm: 576px;
 
 html,
 body {
@@ -18,158 +20,323 @@ body {
 }
 
 .container {
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-header nav.glb-nav-list a {
-  display: block;
-  padding: 0.25rem 0.5rem;
-  font-size: 1rem;
-  font-weight: 300;
-  cursor: pointer;
-  border-radius: 0.25rem;
-  color: black;
-  text-decoration: none;
-}
-
-header nav.glb-nav-list a:hover {
-  color: $key-color;
-  background-color: $light-purple-bg;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-
-  @media screen and (min-width: $desktop-min) {
-    padding: 2rem 1rem 1rem 1rem;
-    margin-bottom: 2rem;
+  @media screen and (min-width: $xlg) {
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  @media screen and (max-width: $mobile-max) {
-    padding: 1rem;
-    margin-bottom: 1rem;
+  @media screen and (max-width: $xlg) {
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (max-width: $lg) {
+    width: 100%;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (max-width: $md) {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: $sm) {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
-header h1 {
-  margin: 0;
-  padding: 0;
-  font-weight: 400;
-  line-height: 100%;
-
-  @media screen and (min-width: $desktop-min) {
-    font-size: 1.5rem;
-  }
-
-  @media screen and (max-width: $mobile-max) {
-    font-size: 1.2rem;
-  }
-}
-
-header h1 img {
-  width: auto;
-  vertical-align: bottom;
-
-  @media screen and (min-width: $desktop-min) {
-    height: 3rem;
-    margin-top: -0.75rem;
-    margin-bottom: -0.75rem;
-    margin-right: 0.5rem;
-  }
-
-  @media screen and (max-width: $mobile-max) {
-    height: 2rem;
-    margin-top: -0.5rem;
-    margin-bottom: -0.5rem;
-    margin-right: 0.5rem;
-  }
-}
-
-header nav.glb-nav-list {
-  @media screen and (min-width: $desktop-min) {
-    display: flex;
-  }
-
-  @media screen and (max-width: $mobile-max) {
-    position: absolute;
-    right: 0.5rem;
-    top: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    height: auto;
-    padding: 0.5rem;
-    align-items: flex-end;
-    border: 1px solid transparent;
-    background-color: white;
-  }
-}
-
-header nav.glb-nav-list a {
-  @media screen and (max-width: $mobile-max) {
-    display: none;
-  }
-}
-
-header .nav-toggle {
-
-  @media screen and (min-width: $desktop-min) {
-    display: none;
-  }
-
-  @media screen and (max-width: $mobile-max) {
-    display: block;
-    padding: 0 0.5rem;
-  }
-}
-
-@media screen and (max-width: $mobile-max) {
-  header nav.glb-nav-list:hover {
-    border: 1px solid #dddddd;
-    border-radius: 0.25rem;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 0 3px rgba(0, 0, 0, 0.05);
-  }
-
-  header nav.glb-nav-list:hover a {
-    display: block;
-  }
-}
 
 footer {
-  margin-top: 1rem;
-  border-top: 1px solid #dddddd;
-  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
   color: #999999;
   font-weight: 300;
+  font-size: 0.8rem;
+
+
+  @media screen and (min-width: $md) {
+    padding: 0;
+  }
+
+  @media screen and (max-width: $md) {
+    padding: 1rem;
+  }
 }
 
-main.container {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
 
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+header.default {
+  .title-wrap {
+    display: flex;
+    align-items: center;
+
+    @media screen and (min-width: $xlg) {
+      margin: 1rem 0;
+    }
+
+    @media screen and (max-width: $xlg) {
+      margin: 1rem 0;
+    }
+
+    @media screen and (max-width: $lg) {
+      margin: 1rem 0;
+    }
+
+    @media screen and (max-width: $md) {
+      padding: 1rem;
+      margin: 0;
+    }
+
+    @media screen and (max-width: $sm) {
+      padding: 1rem;
+      margin: 0;
+    }
+  }
+
+  img.logo {
+    display: inline;
+    width: 2vw;
+    min-width: 35px;
+    max-width: 60px;
+    height: auto;
+    margin-right: 1rem;
+  }
+
+  .title {
+    font-weight: 500;
+    line-height: 140%;
+
+    @media screen and (min-width: $xlg) {
+      font-size: 2rem;
+    }
+
+    @media screen and (max-width: $xlg) {
+      font-size: 1.8rem;
+    }
+
+    @media screen and (max-width: $lg) {
+      font-size: 1.6rem;
+    }
+
+    @media screen and (max-width: $md) {
+      font-size: 1.5rem;
+    }
+
+    @media screen and (max-width: $sm) {
+      font-size: 1.4rem;
+    }
+  }
+
+  nav {
+    font-weight: 300;
+    line-height: 140%;
+    display: flex;
+    flex-wrap: wrap;
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      color: $key-color;
+      text-decoration: underline;
+    }
+
+    @media screen and (min-width: $xlg) {
+      margin: 0;
+      font-size: 1.2rem;
+
+      a {
+        margin: 0 1rem 0.5rem 0;
+      }
+    }
+
+    @media screen and (max-width: $xlg) {
+      margin: 0;
+      font-size: 1.1rem;
+
+      a {
+        margin: 0 1rem 0.5rem 0;
+      }
+    }
+
+    @media screen and (max-width: $lg) {
+      margin: 0;
+      font-size: 1rem;
+
+      a {
+        margin: 0 1rem 0.5rem 0;
+      }
+    }
+
+    @media screen and (max-width: $md) {
+      margin: 0;
+      padding: 1rem;
+      font-size: 1rem;
+
+      a {
+        margin: 0 1.5rem 0.25rem 0;
+      }
+    }
+
+    @media screen and (max-width: $sm) {
+      margin: 0;
+      padding: 1rem;
+      font-size: 1rem;
+
+      a {
+        margin: 0 1.5rem 0.25rem 0;
+      }
+    }
+  }
 }
 
 h2 {
-  margin: 0 0 0.5rem 0;
-  padding: 0;
   font-weight: 500;
-  line-height: 100%;
   color: $key-color;
 
-  @media screen and (min-width: $desktop-min) {
-    font-size: 1.2rem;
+  @media screen and (min-width: $xlg) {
+    margin: 3rem 0 3rem 0;
+    font-size: 2rem;
   }
 
-  @media screen and (max-width: $mobile-max) {
-    font-size: 1rem;
+  @media screen and (max-width: $xlg) {
+    margin: 2.5rem 0 2.5rem 0;
+    font-size: 1.8rem;
+  }
+
+  @media screen and (max-width: $lg) {
+    margin: 2rem 0 2rem 0;
+    font-size: 1.6rem;
+  }
+
+  @media screen and (max-width: $md) {
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+
+  @media screen and (max-width: $sm) {
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+
+}
+
+
+.main-section-wrap {
+  margin-bottom: 1.5rem;
+
+  &.display-text {
+    margin-bottom: 6rem;
+
+    @media screen and (max-width: $md) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  @media screen and (max-width: $md) {
+    padding: 1rem;
+  }
+
+  .home-display {
+    font-weight: 300;
+    max-width: 600px;
+
+    @media screen and (min-width: $md) {
+      font-size: 1.25rem;
+      line-height: 150%;
+      padding-right: 0.5rem;
+    }
+
+    @media screen and (max-width: $md) {
+      font-size: 1rem;
+      line-height: 140%;
+    }
+  }
+
+  .title-wrap {
+    display: flex;
+    align-items: baseline;
+
+    h3 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.3rem;
+      font-weight: 500;
+    }
+
+    a {
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: #333333;
+      text-decoration: none;
+      margin-left: 1rem;
+    }
+  }
+
+
+  .image-grid {
+    display: grid;
+
+    @media screen and (min-width: $xlg) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media screen and (max-width: $xlg) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media screen and (max-width: $lg) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: $md) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: $sm) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
+
+    a {
+      display: block;
+      width: 100%;
+      line-height: 0;
+      cursor: pointer;
+
+      img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #dddddd;
+        border-radius: 0.25rem;
+        transition: .3s;
+        cursor: pointer;
+      }
+
+      img:hover {
+        box-shadow: 0 0 2.5px rgba(0, 0, 0, 0.1), 0 0 7px rgba(0, 0, 0, 0.05);
+      }
+
+    }
+  }
+}
+
+.container>p,
+.container>h3 {
+  @media screen and (max-width: $md) {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }

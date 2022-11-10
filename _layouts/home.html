@@ -23,12 +23,21 @@
 </head>
 
 <body>
-  {% include header.html %}
-  <main class="container">
-    <h2>{{page.title}}</h2>
-    {{ content }}
-  </main>
-  {% include footer.html %}
+  <div class="container home-sections">
+    <header>
+      <h1 class="title">
+        <div class="home-logo">
+          <img src="{{ "assets/images/muLogoLight.png" | relative_url }}">
+        </div>
+        Midwest <br/>Uncertainty <br/>Collective
+      </h1>
+      {% include nav.html %}
+    </header>
+    <main>
+      {{ content }}
+      {% include footer.html %}
+    </main>
+  </div>
 </body>
 
 </html>

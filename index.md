@@ -1,39 +1,46 @@
 ---
-layout: default
+layout: home
 title: "Home"
 ---
-<div class="main-wrap">
+<section class="main-section-wrap display-text">
   <div class="text">
     {% for text in site.data.home_text %}
       <p class="home-display">{{text}}</p>
     {% endfor %}
+  </div>
+</section>
+
+<section class="main-section-wrap">
+  <div class="title-wrap">
+    <h3>News</h3>
+  </div>
+  {% for news in site.data.home_news %}
+    {% include home-news.html title=news.title date=news.date content=news.content %}
+  {% endfor %}
+</section>
+
+<section class="main-section-wrap">
+  <div class="title-wrap">
+    <h3>Research Areas</h3>
   </div>
   <div class="image-grid">
     {% for image in site.data.home_images %}
        {% include home-image.html url=image.url img=image.img alt=image.alt %}
     {% endfor %}
   </div>
-</div>
 
-<div class="posts-wrap">
-  <div class="title-wrap">
-    <h2>News</h2>
-  </div>
-  {% for news in site.data.home_news %}
-    {% include home-news.html title=news.title date=news.date content=news.content %}
-  {% endfor %}
-</div>
+</section>
 
-<div class="posts-wrap">
+<section class="main-section-wrap">
   <div class="title-wrap">
-    <h2>Recent Papers</h2>
+    <h3>Recent Papers</h3>
     <a href="/mucollective.co/papers/">See all</a>
   </div>
   {% for post in site.posts | limit: 20 %}
     {% if post.category contains 'paper' %}
       {% assign currentdate = post.date | date: "%Y" %}
       {% if currentdate != date %}
-        <h3 class="post-cat-title" id="y{{currentdate}}">{{ currentdate }}</h3>
+        <h3 class="paper-year-title" id="y{{currentdate}}">{{ currentdate }}</h3>
         {% assign date = currentdate %}
       {% endif %}
         {% include paper-list-item.html
@@ -51,4 +58,4 @@ title: "Home"
         %}
     {% endif %}
   {% endfor %}
-</div>
+</section>

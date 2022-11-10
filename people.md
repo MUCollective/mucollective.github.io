@@ -3,9 +3,9 @@ layout: default
 title: "People"
 ---
 
-<div class="posts-wrap">
+<div class="main-section-wrap">
   <div class="title-wrap">
-    <h2>Faculty</h2>
+    <h3>Faculty</h3>
   </div>
   <section class="people-grid">
   {% for person in site.data.people.faculty %}
@@ -15,14 +15,14 @@ title: "People"
       department=person.department
       school=person.school
       image=person.image
-      link=person.image %}
+      link=person.link %}
   {% endfor %}
   </section>
 </div>
 
-<div class="posts-wrap">
+<div class="main-section-wrap">
   <div class="title-wrap">
-    <h2>Post Docs and Graduate Students</h2>
+    <h3>Post Docs and Graduate Students</h3>
   </div>
   <section class="people-grid">
   {% for person in site.data.people.current %}
@@ -32,14 +32,14 @@ title: "People"
       department=person.department
       school=person.school
       image=person.image
-      link=person.image %}
+      link=person.link %}
   {% endfor %}
   </section>
 </div>
 
-<div class="posts-wrap">
+<div class="main-section-wrap">
   <div class="title-wrap">
-    <h2>Alumni</h2>
+    <h3>Alumni</h3>
   </div>
   <div class="alumni-list-wrap">
     <ul class="people-list">

@@ -59,6 +59,12 @@ current:
     school: Northwestern University
     image: assets/images/people-dongping-zhang.jpeg
     link: https://www.dpzhang.com/
+  - name: Charles Cui
+    role: PhD Student
+    department: Computer Science
+    school: Northwestern University
+    image: assets/images/people-charles-cui.png
+    link: https://yccui.github.io/
   - name: Taewook Kim
     role: PhD Student
     department: Technology & Social Behavior

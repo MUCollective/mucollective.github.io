@@ -1,0 +1,5 @@
+<nav class="glb-nav-list">
+  {% for menu in site.data.menu %}
+  <a href="{{ menu.path | relative_url }}">{{menu.name}}</a>
+  {% endfor %}
+</nav>

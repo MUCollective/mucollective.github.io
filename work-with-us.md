@@ -1,13 +1,7 @@
 ---
 layout: default
-title: "Work with Us"
+title: "Work with Us!"
 ---
-
-<div class="posts-wrap">
-  <div class="title-wrap">
-    <h2>Work with us!</h2>
-  </div>
-</div>
 
 We are always on the lookout for top students and researchers to join our lab. See below for information for potential postdoctoral scholars, Ph.D. students, and Master’s or undergrad research assistants or volunteers.
 
@@ -45,14 +39,9 @@ Existing undergraduates and Master’s students at Northwestern should contact M
 </p>
 
 <style>
-  .title-wrap {
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-  }
   h3 {
     max-width: 500px;
-    margin: 2rem auto 0.5rem auto;
+    margin: 2rem auto 0.5rem 0;
     padding: 0;
     font-weight: 400;
     line-height: 100%;
@@ -63,7 +52,7 @@ Existing undergraduates and Master’s students at Northwestern should contact M
     max-width: 500px;
     font-size: 0.9rem;
     font-weight: 300;
-    margin: 0 auto 0.5rem auto;
+    margin: 0 auto 0.5rem 0;
     line-height: 130%;
   }
   p.contacts svg {

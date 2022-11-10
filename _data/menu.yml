@@ -1,0 +1,14 @@
+- name: Home
+  path: index
+- name: People
+  path: people
+- name: Research
+  path: research
+- name: Publications
+  path: publications
+- name: Software
+  path: software
+- name: Talks
+  path: talks
+- name: Work with us
+  path: work-with-us
