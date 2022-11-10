@@ -108,12 +108,26 @@ h3.paper-year-title {
   margin-bottom: 0.25rem;
 }
 
-
-section.paper-header {
-  margin: 0 auto;
+.paper-header,
+.paper-content,
+.paper-banner,
+.paper-footer {
+  margin: 0 auto 1rem 0;
   width: 100%;
   max-width: 800px;
 
+  @media screen and (min-width: $md) {
+    padding: 0;
+  }
+
+  @media screen and (max-width: $md) {
+    padding: 0 1rem;
+  }
+}
+
+
+section.paper-header {
+  margin-top: 2rem;
   small {
     font-size: 0.9rem;
     font-weight: 700;
@@ -122,8 +136,7 @@ section.paper-header {
 
   h2.paper-title {
     font-size: 1.2rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin: 0.5rem 0;
     padding: 0;
     font-weight: 400;
   }
@@ -162,10 +175,6 @@ section.paper-header {
 }
 
 .paper-banner {
-  margin: 1rem auto;
-  width: 100%;
-  max-width: 800px;
-
   img {
     width: 100%;
     padding: 0.5rem;
@@ -184,9 +193,6 @@ section.paper-header {
 }
 
 .paper-content {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 800px;
 
   h3 {
     font-size: 1rem;
@@ -209,9 +215,6 @@ section.paper-header {
 }
 
 .paper-footer {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 800px;
   font-size: 0.9rem;
 
   h4 {
