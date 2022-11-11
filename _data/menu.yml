@@ -6,8 +6,8 @@
   path: research
 - name: Publications
   path: publications
-- name: Software
-  path: software
+- name: Public Release
+  path: public-release
 - name: Talks
   path: talks
 - name: Work with us

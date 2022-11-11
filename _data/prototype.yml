@@ -1,0 +1,14 @@
+- title: PGoG
+  contributor: Xiaoying Pu, Matthew Kay
+  type: R package
+  supplement:
+    - type: Code Repository
+      link: https://github.com/mucollective/pgog
+  description: This is an R package that accompanies our CHI 2020 paper, A Probabilistic Grammar of Graphics (PGoG). Here we implement the PGoG grammar as two ggplot2 geoms and show that PGoG can be compatible with an existing grammar of graphics-based system.
+- title: Cicero
+  contributor: Hyeok Kim
+  type: JS library
+  supplement:
+    - type: Gallery
+      link: https://see-mike-out.github.io/cicero-supplemental/
+  description: Cicero is a declarative grammar for responsive visualization transformatons.
