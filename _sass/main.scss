@@ -89,15 +89,15 @@ header.default {
     align-items: center;
 
     @media screen and (min-width: $xlg) {
-      margin: 1rem 0;
+      padding: 1rem 0;
     }
 
     @media screen and (max-width: $xlg) {
-      margin: 1rem 0;
+      padding: 1rem 0;
     }
 
     @media screen and (max-width: $lg) {
-      margin: 1rem 0;
+      padding: 1rem 0;
     }
 
     @media screen and (max-width: $md) {

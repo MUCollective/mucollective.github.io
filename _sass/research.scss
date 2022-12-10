@@ -21,19 +21,19 @@
   display: grid;
 
   @media screen and (min-width: $xlg) {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  }
-
-  @media screen and (max-width: $xlg) {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  }
-
-  @media screen and (max-width: $lg) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  @media screen and (max-width: $md) {
+  @media screen and (max-width: $xlg) {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media screen and (max-width: $lg) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media screen and (max-width: $md) {
+    grid-template-columns: 1fr 1fr;
   }
 
   @media screen and (max-width: $sm) {
