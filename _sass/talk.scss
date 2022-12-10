@@ -1,0 +1,48 @@
+.talk-item {
+  display: block;
+  margin-bottom: 1rem;
+
+  h4 {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem 0;
+    color: $key-color;
+
+    a {
+      color: $key-color;
+      svg {
+        height: 1rem;
+        margin-left: 0.25rem;
+        vertical-align: text-bottom;
+      }
+    }
+
+    a:hover {
+      color: #FF4D00;
+    }
+  }
+
+  span {
+    display: block;
+    margin-top: 0.25rem;
+    font-weight: 300;
+    line-height: 130%;
+
+    svg {
+      width: auto;
+      vertical-align: text-bottom;
+      margin-right: 0.5rem;
+    }
+
+  }
+
+  span.contributor,
+  span.venue {
+    font-size: 0.9rem;
+
+    svg {
+      height: 0.9rem;
+    }
+  }
+}
