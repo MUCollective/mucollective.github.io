@@ -43,7 +43,7 @@ Existing undergraduates and Master’s students at Northwestern should contact M
     max-width: 500px;
     margin: 2rem auto 0.5rem 0;
     padding: 0;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 100%;
     font-size: 1rem;
   }
@@ -51,9 +51,10 @@ Existing undergraduates and Master’s students at Northwestern should contact M
   p {
     max-width: 500px;
     font-size: 0.9rem;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0 auto 0.5rem 0;
     line-height: 130%;
+    color: #454545;
   }
   p.contacts svg {
     width: 0.9rem;

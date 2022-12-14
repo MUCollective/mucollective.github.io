@@ -56,7 +56,7 @@
     }
 
     h4 {
-      font-size: 0.95rem;
+      font-size: 1.05rem;
       font-weight: 600;
       margin: 0 0 0.5rem 0;
 
@@ -69,21 +69,21 @@
     span {
       display: block;
       margin-top: 0.5rem;
-      font-weight: 300;
+      font-weight: 400;
       line-height: 130%;
     }
 
     span.authors {
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
 
     span.venue {
-      font-size: 0.8rem;
-      color: #454545;
+      font-size: 0.85rem;
+      color: #666666;
 
       svg {
         width: auto;
-        height: 0.8rem;
+        height: 0.85rem;
         vertical-align: text-bottom;
       }
 
@@ -145,17 +145,17 @@ section.paper-header {
   span {
     display: block;
     margin-top: 0.5rem;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 130%;
   }
 
   span.authors {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   span.venue {
-    font-size: 0.8rem;
-    color: #454545;
+    font-size: 0.85rem;
+    color: #666666;
   }
 
   span.award {
@@ -187,7 +187,7 @@ section.paper-header {
     max-width: 500px;
     margin: 0.5rem 0 0 0;
     font-size: 0.9rem;
-    font-weight: 300;
+    font-weight: 400;
     color: #666666;
   }
 }

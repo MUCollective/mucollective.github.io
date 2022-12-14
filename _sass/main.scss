@@ -1,6 +1,6 @@
 $key-color: #4e2a84;
 $light-purple-bg: rgba(78, 42, 132, 0.1);
-$default-font: sans-serif;
+$default-font: 'Source Sans Pro', 'Lato', sans-serif;
 $xlg: 1200px;
 $lg: 960px;
 $md: 720px;
@@ -10,7 +10,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  font-family: $default-font;
+  font-family: $default-font !important;
   padding: 0;
   margin: 0;
 }
@@ -69,7 +69,7 @@ footer {
   margin-top: 3rem;
   margin-bottom: 1rem;
   color: #999999;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 0.8rem;
 
 
