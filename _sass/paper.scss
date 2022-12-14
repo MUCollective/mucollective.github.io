@@ -118,9 +118,17 @@ h3.paper-year-title {
   }
 }
 
+.paper-footer a::after {
+  content: ' | ';
+}
+
+.paper-footer a:last-child::after {
+  content: '';
+}
 
 section.paper-header {
   margin-top: 2rem;
+
   small {
     font-size: 0.9rem;
     font-weight: 700;
