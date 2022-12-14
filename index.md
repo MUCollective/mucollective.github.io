@@ -34,9 +34,9 @@ title: "Home"
 <section class="main-section-wrap">
   <div class="title-wrap">
     <h3>Recent Papers</h3>
-    <a href="/mucollective.co/papers/">See all</a>
+    <a href="/mucollective.co/publications/">See all</a>
   </div>
-  {% for post in site.posts | limit: 20 %}
+  {% for post in site.posts | limit: 10 %}
     {% if post.category contains 'paper' %}
       {% assign currentdate = post.date | date: "%Y" %}
       {% if currentdate != date %}
