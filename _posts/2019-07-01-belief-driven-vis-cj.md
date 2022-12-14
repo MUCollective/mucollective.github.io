@@ -14,6 +14,4 @@ addtinoals:
 ---
 
 <!-- abstract -->
-<p><span class="font_ynn86mr5z">Abstract</span></p>
-<p>Journalists often use visualizations and other interactive representations to support stories they convey in articles. While readers bring their prior beliefs to interpret these representations, typical models of designing them do not consider the readers’ beliefs. We propose “Belief-driven data journalism” as a framework for integrating readers’ beliefs in designing and supporting interaction with data-driven articles. We present four case studies to illustrate how belief-driven data journalism can serve journalistic goals and reflect on design considerations.We describe an authoring tool that we are developing to help journalists and others with varying technical expertise create belief-driven data journalism pieces.</p>
-
+Journalists often use visualizations and other interactive representations to support stories they convey in articles. While readers bring their prior beliefs to interpret these representations, typical models of designing them do not consider the readers’ beliefs. We propose “Belief-driven data journalism” as a framework for integrating readers’ beliefs in designing and supporting interaction with data-driven articles. We present four case studies to illustrate how belief-driven data journalism can serve journalistic goals and reflect on design considerations.We describe an authoring tool that we are developing to help journalists and others with varying technical expertise create belief-driven data journalism pieces.
