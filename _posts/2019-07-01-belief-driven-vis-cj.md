@@ -8,9 +8,11 @@ thumb: "assets/images/paper-thumb-belief-driven-vis-cj.png"
 banner: "assets/images/paper-banner-belief-driven-vis-cj.png"
 caption: "Plots showing various stages of engagement in belief-driven data representations. All plots show income by percentage of voters who voted for the candidate by ethnicity."
 pdf: "assets/papers/2019-belief-driven-vis-cj.pdf"
-addtinoals:
-  - medium post: "https://medium.com/multiple-views-visualization-research-explained/theydrawit-an-authoring-tool-for-belief-driven-visualization-b3267a001480"
-  - code: "../theydrawit"
+additionals:
+  - link: "https://medium.com/multiple-views-visualization-research-explained/theydrawit-an-authoring-tool-for-belief-driven-visualization-b3267a001480"
+    name: "Medium post"
+  - link: "https://mucollective.co/theydrawit/"
+    name: "Code"
 ---
 
 <!-- abstract -->

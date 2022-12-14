@@ -9,6 +9,9 @@ banner: "assets/images/paper-banner-responsive-vis.png"
 caption: "Example design patterns for responsive visualization"
 pdf: "assets/papers/2021-responsive-vis.pdf"
 supplementary: "https://osf.io/zrqfy/"
+additionals:
+  - name: "Gallery"
+    link: "https://mucollective.github.io/responsive-vis-gallery/"
 ---
 
 <!-- abstract -->

@@ -9,8 +9,9 @@ banner: "assets/images/paper-banner-concrete-reexpression.png"
 caption: "A text article with our automated concrete re-expression tools using two common strategies: adding familiar context (left) and reunitization (right). Both strategies provide more context for the measurements by comparing them to measurements of familiar objects. "
 pdf: "assets/papers/2018-concrete-reexpression.pdf"
 github: "https://github.com/jhullman/concrete-measurement-re-expressions"
-addtinoals:
-  - website: "https://mucollective.northwestern.edu/measurements/"
+additionals:
+  - link: "https://mucollective.co/measurements/"
+    name: "Website"
 ---
 
 <!-- abstract -->

@@ -7,9 +7,10 @@ venue: "Harvard Data Science Review 2021"
 thumb: "assets/images/paper-thumb-hdsr-paper.png"
 banner: "assets/images/paper-banner-hdsr-paper.png"
 caption: "Plots of real estate data from Ames, Iowa (De Cock, 2011), created in Tableau Software (Tableau Software, 2021c). (a) Trellis plot of housing sale prices by neighborhood might invoke comparisons to a normal or log-normal distribution, and enables a visual check for a main effect of neighborhood. (b) Scatterplot of housing sale prices by square feet of above ground living area, with number of bedrooms above ground mapped to sequential color might invoke comparisons to a diagonal line representing a perfect positive correlation. (c) Residuals from multiple linear regression of sale price by above ground living area and bedrooms implied in plot b. (d) Trellis plot of sale price by lot configuration and neighborhood enables, among other effects, a visual check for an interaction between lot configuration and neighborhood."
-pdf: "/assets/papers/2021-hdsr-paper.pdf"
-addtinoals:
-  - open access: "https://hdsr.mitpress.mit.edu/pub/w075glo6/release/2?readingCollection=c6a3a10e"
+pdf: "assets/papers/2021-hdsr-paper.pdf"
+additionals:
+  - link: "https://hdsr.mitpress.mit.edu/pub/w075glo6/release/2?readingCollection=c6a3a10e"
+    name: "Open Access"
 ---
 
 <!-- abstract -->

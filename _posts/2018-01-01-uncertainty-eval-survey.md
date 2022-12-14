@@ -8,9 +8,10 @@ thumb: "assets/images/paper-thumb-uncertainty-eval-survey.png"
 banner: "assets/images/paper-banner-uncertainty-eval-survey.png"
 caption: "A collection of 372 evaluation paths observed across a sample of 86 publications with uncertainty visualization evaluations."
 pdf: "assets/papers/2018-uncertainty-eval-survey.pdf"
-addtinoals:
-  - supplement: "https://github.com/jhullman/uncertaintyVisEval"
-  - website: "https://visualization.ischool.uw.edu/~xiaoliq/uncertainty_vis_eval/index.html"
+github: "https://github.com/jhullman/uncertaintyVisEval"
+additionals:
+  - link: "https://visualization.ischool.uw.edu/~xiaoliq/uncertainty_vis_eval/index.html"
+    name: "Website"
 ---
 
 <!-- abstract -->

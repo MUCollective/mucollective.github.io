@@ -9,9 +9,10 @@ banner: "assets/images/paper-banner-explorable-multiverse-analysis-report-chi.gi
 caption: "An example of one explorable multiverse analysis report in which the reader can adjust modelling choices and presentation options. Interactive demo available here"
 pdf: "assets/papers/2019-explorable-multiverse-analysis-report-chi.pdf"
 bestPaper: true
-addtinoals:
-  - website: "https://explorablemultiverse.github.io/"
-  - code: "https://github.com/explorablemultiverse/explorablemultiverse.github.io"
+github: "https://github.com/explorablemultiverse/explorablemultiverse.github.io"
+additionals:
+  - link: "https://explorablemultiverse.github.io/"
+    name: "Website"
 ---
 
 <!-- abstract -->

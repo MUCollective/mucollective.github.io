@@ -8,10 +8,12 @@ thumb: "assets/images/paper-thumb-spatial-analogies.png"
 banner: "assets/images/paper-banner-spatial-analogies.jpg"
 caption: "An article containing spatial references for a user located in Seattle, WA, alongside examples of automatically generated personalized distance analogy maps (lower left, center) and personalized area analogy maps (top left, right)."
 pdf: "assets/papers/2016-spatial-analogies.pdf"
+github: "https://bitbucket.org/yeaseulK/chi16-geospatial-analogy"
 addtinoals:
-  - supplemental materials: "https://bitbucket.org/yeaseulK/chi16-geospatial-analogy"
-  - website: "https://visualization.ischool.uw.edu/~yeaseul1/scales2015_eval/geospatial/"
-  - medium post: "https://medium.com/hci-design-at-uw/atlas-of-me-personalized-spatial-analogy-maps-for-unfamiliar-measurements-e20566d94b52"
+  - link: "https://visualization.ischool.uw.edu/~yeaseul1/scales2015_eval/geospatial/"
+    name: "Website"
+  - link: "https://medium.com/hci-design-at-uw/atlas-of-me-personalized-spatial-analogy-maps-for-unfamiliar-measurements-e20566d94b52"
+    name: "Medium post"
 ---
 
 <!-- abstract -->

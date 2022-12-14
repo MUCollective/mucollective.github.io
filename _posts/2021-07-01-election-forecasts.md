@@ -8,8 +8,6 @@ thumb: "assets/images/paper-thumb-election-forecasts.png"
 banner: "assets/images/paper-banner-election-forecasts.png"
 caption: "Some displays of uncertainty in presidential election forecasts. Top row: 2016 election needle from the New York Times and map icon array from Fivethirtyeight in 2020. Bottom row: time series of probabilities from Fivethirtyeight in 2012 and their dot distribution in 2020. No single visualization captures all aspects of uncertainty, but a set of thoughtful graphics can help readers grasp uncertainty and learn about model assumptions over time."
 pdf: "assets/papers/2020-election-forecasts.pdf"
-addtinoals:
-  - : "../files/2020%20-%20Kim,%20Bayesian%20Assisted%20Inference%20From%20Visualised%20Data.pdf"
 ---
 
 <!-- abstract -->

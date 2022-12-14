@@ -8,8 +8,7 @@ thumb: "assets/images/paper-thumb-imagining-replications.png"
 banner: "assets/images/paper-banner-imagining-replications.png"
 caption: "A depiction of distributions relevant to replication uncertainty, including those based on perfect knowledge of the world (left) and those derived from samples obtained in experimentation (right). Our study evaluated whether graphically predicting the true distribution one would see if an experiment were replicated many times using either discrete or continuous visualizations impacted how well participants could recall an observed sampling distribution they were shown (6) or estimate the uncertainty in the replication prediction distribution (7) for a new study."
 pdf: "assets/papers/2017-imagining-replications.pdf"
-addtinoals:
-  - supplemental material: "https://github.com/jhullmanuw/imagining_replications_infovis2017"
+github: "https://github.com/jhullmanuw/imagining_replications_infovis2017"
 ---
 
 <!-- abstract -->

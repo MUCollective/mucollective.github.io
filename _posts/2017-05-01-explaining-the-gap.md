@@ -10,7 +10,8 @@ caption: "The study interface for experimental visual conditions."
 pdf: "assets/papers/2017-explaining-the-gap.pdf"
 bestPaper: true
 addtinoals:
-  - medium post: "https://medium.com/hci-design-at-uw/explaining-the-gap-visualizing-ones-predictions-improves-recall-and-comprehension-of-data-ec848d5861d9"
+  - link: "https://medium.com/hci-design-at-uw/explaining-the-gap-visualizing-ones-predictions-improves-recall-and-comprehension-of-data-ec848d5861d9"
+    name: "Medium post"
 ---
 
 <!-- abstract -->

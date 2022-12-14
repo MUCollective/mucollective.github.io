@@ -8,8 +8,9 @@ thumb: "assets/images/paper-thumb-ai-research-broader-impact-statements.png"
 banner: "assets/images/paper-banner-ai-research-broader-impact-statements.png"
 caption: "Prevalence of types of impacts written about in our sample of NeurIPS 2020 broader impact statements. The graphic originally appeared in a Technically Social blog post about the paper."
 pdf: "assets/papers/2021-ai-research-broader-impact-statements.pdf"
-addtinoals:
-  - blog: "https://medium.com/technically-social/heres-how-ai-researchers-are-thinking-about-the-societal-impacts-of-ai-b82fc3f29b4d"
+additionals:
+  - link: "https://medium.com/technically-social/heres-how-ai-researchers-are-thinking-about-the-societal-impacts-of-ai-b82fc3f29b4d"
+    name: "Blog post"
 ---
 
 <!-- abstract -->

@@ -9,8 +9,6 @@ banner: "assets/images/paper-banner-when-ish-is-my-bus.png"
 caption: "Visualizations of uncertainty in predicted bus arrival times (left); Generation of the quantile dot plot (right)."
 pdf: "assets/papers/2016-when-ish-is-my-bus.pdf"
 github: "https://github.com/mjskay/when-ish-is-my-bus"
-addtinoals:
-  - : "https://idl.cs.washington.edu/bibtex/when-ish-is-my-bus/"
 ---
 
 <!-- abstract -->
