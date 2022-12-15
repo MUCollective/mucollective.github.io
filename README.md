@@ -16,9 +16,7 @@ Take a look on [this document for installing and configuring](https://docs.githu
 
 # How to run it locally
 
-1. Install Ruby. [Guide](https://mac.install.guide/ruby/12.html)
-
-If you could not open the link, try Incognito/Privacy mode or Safari browser. The followings are an overview: 
+1. Install Ruby. [Guide](https://mac.install.guide/ruby/12.html) If you could not open the link, try Incognito/Privacy mode or Safari browser. The followings are an overview: 
 
    * a. `brew install ruby-install chruby`. 
    
@@ -30,20 +28,28 @@ If you could not open the link, try Incognito/Privacy mode or Safari browser. Th
    
    * e. It takes a few minutes and you confirm the version of ruby 3.1.2 by running `ruby -v`. If not, try to open a new Terminal. 
  
-2.  Install Jekyll: `gem install jekyll`
-
-You might need to run this using `sudo`.
+2.  Install Jekyll: `gem install jekyll` You might need to run this using `sudo`.
 
 3.  Run: `jekyll serve`
 
 # How to Update
 
-## Home
+Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you are not a master person, you should not need to a local setup. The 2022-23 master is Lily Ge, and Hyeok Kim (the developer) and Fumeng Yang (the side worker) also have knowledge about this if you have any questions. 
 
-- Text on the top left section: `_data/home_text.yml`
-- Thumbnail grid on the top right section: `_data/home-images.yml`
 
-## Papers
+## Adding a paper (for everyone)
+
+The two folders you have to pay attention to are: 
+* `_posts`: This folder provides information for papers. You need to add a new `*.md` file when you want to add a paper. 
+*  `assets`: This folder provides the actual thumbnails and PDFs. 
+
+You need to prepare the followings: 
+* a unique ID: say [awesome-paper] and it is published in `yyyy`. This ID is used everywhere to grab information for rendering the website. 
+* a `.md` file (see below) that will be uploaded to `_posts` : you __must__ name it `yyyy-mm-dd-[awesome-paper].pdf` The month and date aren't important. You can use any values.  
+* the paper PDF that will be uploaded to `assets/papers/`: you __must__ name it `yyyy-[awesome-paper].pdf`
+* a thumbnail that will be uploaded to `assets/images/`: you __must__ name it `paper-banner-[awesome-paper].png|jpg|jpeg|gif|bmp`. The width should be less than 1200px, and we suggest to use a 4:3 aspect ratio.
+* authors, abstract, venue, year, awards
+* other links you needed
 
 ### File name
 
@@ -81,6 +87,13 @@ additionals:  # additional information
 ### content
 
 Provde an abstract only
+
+
+## Home
+
+- Text on the top left section: `_data/home_text.yml`
+- Thumbnail grid on the top right section: `_data/home-images.yml`
+
 
 ## People
 
