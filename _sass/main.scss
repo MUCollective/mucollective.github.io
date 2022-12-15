@@ -312,27 +312,6 @@ h2 {
 
     column-gap: 0.5rem;
     row-gap: 0.5rem;
-
-    a {
-      display: block;
-      width: 100%;
-      line-height: 0;
-      cursor: pointer;
-
-      img {
-        width: 100%;
-        height: auto;
-        border: 1px solid #dddddd;
-        border-radius: 0.25rem;
-        transition: .3s;
-        cursor: pointer;
-      }
-
-      img:hover {
-        box-shadow: 0 0 2.5px rgba(0, 0, 0, 0.1), 0 0 7px rgba(0, 0, 0, 0.05);
-      }
-
-    }
   }
 }
 
@@ -342,4 +321,55 @@ h2 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+}
+
+.research-area-item {
+  position: relative;
+  border: 1px solid #dddddd;
+  
+  a {
+    display: block;
+    position: relative;
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .research-area-thumb {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .research-area-desc {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+    color: white;
+    padding: 2.5rem 0.5rem 0.25rem 0.5rem;
+
+    h5 {
+      font-weight: 700;
+      font-size: 0.9rem;
+      margin: 0 0 0.25rem 0;
+    }
+
+    p {
+      text-overflow: ellipsis;
+      font-size: 0.8rem;
+      font-weight: 400;
+      margin: 0;
+    }
+  }
+
+  height: 150px;
+  overflow: hidden;
+  border-radius: 0.25rem;
 }

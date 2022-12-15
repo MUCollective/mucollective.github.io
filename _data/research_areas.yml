@@ -22,7 +22,7 @@
   category: uncertainty-gog
   desc: "Building uncertainty visualizations can be a pain. The Grammar of Graphics provides an abstraction for building visualizations generally, but it does not explicitly represent uncertainty, which can make it difficult to quickly prototype uncertainty visualizations, with plenty of room for errors. To better leverage the Grammar of Graphics to easily build uncertainty visualizations, we have developed an abstract grammar, the Probabilistic Grammar of Graphics (PGoG), as well as the PGoG and tidybayes R packages."
   image:
-    - "assets/images/research-image-uncertainty-gog.gif"
+    - "assets/images/research-image-uncertainty-gog.png"
 
 - name: Automated Design of Visualizations and Data Summaries
   category: automation

@@ -29,6 +29,7 @@ title: "Home"
           name=item.name
           category=item.category
           desc=item.desc
+          image=item.image
         %}
     {% endfor %}
   </div>

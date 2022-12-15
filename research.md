@@ -5,6 +5,7 @@ title: "Research"
 
 {% for topic in site.data.research_areas %}
   <section class="main-section-wrap research-area">
+  <a name="{{ topic.category }}"></a>
     <div class="title-wrap">
       <h3>{{topic.name}}</h3>
     </div>
@@ -13,9 +14,11 @@ title: "Research"
       <p>{{topic.desc}}</p>
     {% endif %}
     {% if topic.image %}
-      {% for image in topic.image %}
-      <img src="{{image | relative_url}}" alt="{{topic.name}} description image" />
-      {% endfor %}
+      <div class="image-wrap">
+        {% for image in topic.image %}
+        <img src="{{image | relative_url}}" alt="{{topic.name}} description image" />
+        {% endfor %}
+      </div>
     {% endif %}
     </div>
     <h4>Related contributions</h4>

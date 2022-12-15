@@ -1,4 +1,12 @@
 <article class="research-area-item">
-  <div class="research-area-thumb"></div>
-  <h5 class="software">{{ include.name }}</h5>
+  <a href="research#{{include.category}}">
+    {% if include.image %}
+    <div class="research-area-thumb">
+      <img src="{{include.image[0] | relative_url}}" alt="{{topic.name}} description image" />
+    </div>
+    {% endif %}
+    <div class="research-area-desc">
+      <h5>{{ include.name }}</h5>
+    </div>
+  </a>
 </article>

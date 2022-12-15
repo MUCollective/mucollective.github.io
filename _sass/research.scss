@@ -18,7 +18,44 @@
 }
 
 .content-wrap {
-  display: flex;
+
+  @media screen and (min-width: $lg) {
+    display: flex;
+
+    p {
+      max-width: calc(50% - 0.5rem);
+    }
+
+    .image-wrap {
+      max-width: calc(50% - 0.5rem);
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    justify-content: space-between;
+  }
+
+  @media screen and (max-width: $md) {
+    .image-wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 1rem;
+    }
+  }
+
+  .image-wrap {
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.25rem;
+      border: 1px solid #dddddd;
+      margin-bottom: 0.5rem;
+    }
+  }
+
 }
 
 .paper-grid {
