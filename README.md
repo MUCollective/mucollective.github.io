@@ -83,7 +83,7 @@ Then check out [Mu website](https://mucollective.github.io/mucollective.co/) and
 ## Add a new [person](https://mucollective.github.io/mucollective.co/people)
 
 You need to prepare the followings: 
-* A headshot named `people-first-last.png|jpg|jpeg|gif|bmp`. (Fumeng: I don't know if you want to use a gif, but it is possible?)
+* A 1x1 headshot named `people-first-last.png|jpg|jpeg|gif|bmp`. (Fumeng: I don't know if you want to use a gif, but it is possible?)
 
 You only have to __edit__ `_data/people.yml` file and upload the image to `assets/images`. 
 
