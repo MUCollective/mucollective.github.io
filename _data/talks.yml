@@ -1,19 +1,283 @@
-- title: Uncertainty visualization with tidybayes and ggdist
+- title: Theories of inference for visualization interactions
   year: 2021
-  contributor: Matthew Kay
-  venue: Bayes@Lund
-  link: https://youtu.be/EtrmxMX8zWw
+  contributor: Jessica Hullman
+  venue: Keynote at BioVIS Workshop, Co-located with ISMB
+
+- title: Interactive Analysis Needs Theories of Inference
+  year: 2020
+  contributor: Jessica Hullman
+  venue: Keynote at Visualization in Data Science (VDS) Workshop, Co-located with IEEE VIS
+
+- title: Why Interactive Analysis Needs Theories of Inference
+  year: 2020
+  contributor: Jessica Hullman
+  venue: Keynote at Human-in-the-loop Data Analysis Workshop, Co-located with SIGMOD
+
+- title: Supporting Reasoning with Uncertainty with Data Visualization
+  year: 2019
+  contributor: Jessica Hullman
+  venue: Keynote at Data Science and Visualization Symposium. University of Miami
+
+- title: How to Visually Communicate Uncertain Data
+  year: 2019
+  contributor: Jessica Hullman
+  venue: Keynote at Conference on Global Risk, Uncertainty, & Volatility. Zurich
+
+- title: Storytelling with Visualization
+  year: 2016
+  contributor: Jessica Hullman
+  venue: Keynote at Tapestry Conference
+
+- title: Better Visualizations for Model Checks
+  year: 2022
+  contributor: Jessica Hullman
+  venue: International Society for Bayesian Analysis World Meeting, Montreal, CA
+
+- title: Visualizations as Model Checks
+  year: 2022
+  contributor: Jessica Hullman
+  venue: Martin Zelen Memorial Symposium, Harvard University Department of Biostatics
+
+- title: Strategic Communication of Uncertainty
+  year: 2022
+  contributor: Jessica Hullman
+  venue: Meeting of the Presidential Council of Advisors on Science and Technology
+
+- title: Theories of Inference for Data Interactions
+  year: 2021
+  contributor: Jessica Hullman
+  venue: "Stanford HCI Seminar; University of California San Diego Data Science Seminar; Bayes Webinar, Hosted by Generable; Cornell Behavioral Economics and Decision Research Center (BEDR)"
+
+- title: Supporting Reasoning with Uncertainty with Data Visualization
+  year: 2021
+  contributor: Jessica Hullman
+  venue: New York City Data Viz Meetup
+
+- title: Theories of Inference for Data Interactions
+  year: 2020
+  contributor: Jessica Hullman
+  venue: "CMU HCII Seminar, Carnegie Mellon University; DREAM Lab, University of Massachusetts Amherst"
+
+- title: How to Communicate Uncertainty in Forecasts
+  year: 2020
+  contributor: Jessica Hullman
+  venue: "The Centers for Disease and Control (CDC); After Dark Online Series, San Francisco Exploratorium"
+
+- title: Beyond Visualization: Improving Reasoning Under Uncertainty From Data
+  year: 2020
+  contributor: Jessica Hullman
+  venue: "Dept. of Risk and Insurance, University of Wisconsin Madison; Marketing Dept., Leeds School of Business, University of Colorado Boulder"
+
+- title: Supporting Reasoning with Uncertainty with Data Visualization
+  year: 2019
+  contributor: Jessica Hullman
+  venue: Washington Post. Washington D.C.
+
+- title: Seeing What We (Should) Think Through Visualization Interaction
+  year: 2019
+  contributor: Jessica Hullman
+  venue: Chicago Data Vis Meetup, Chicago, IL
+
+- title: Improving Inference and Decision Making from Visualized Data
+  year: 2019
+  contributor: Jessica Hullman
+  venue: Lawrence Dumas Domain Dinner, Northwestern University, Evanston, IL
+
+- title: Supporting Reasoning with Uncertainty with Data Visualization
+  year: 2019
+  contributor: Jessica Hullman
+  venue: "Biostats Seminar, Feinberg School of Medicine, Northwestern University, Chicago, IL; Michigan Interactive and Social Computer Seminar (MISC), University of Michigan, Ann Arbor, MI"
+
+- title: "Interactive Visualization for News Readers' Beliefs: Why and How"
+  year: 2019
+  contributor: Jessica Hullman with Yea Seul Kim
+  venue: NICAR 2019 Invited Session, Newport Beach, CA
+
+- title: Seeing What We (Should) Think Through Visualization Interaction
+  year: 2019
+  contributor: Jessica Hullman
+  venue: Medill Faculty Colloquium, Northwestern University, Evanston, IL
+
+- title: Supporting Reasoning About Uncertainty Through Data Visualization
+  year: 2019
+  contributor: Jessica Hullman
+  venue: Scientific Computing & Imaging Institute, University of Utah, Salt Lake City, UT
+
+- title: Supporting Reasoning About Uncertainty Through Data Visualization
+  year: 2018
+  contributor: Jessica Hullman
+  venue: "NORC at the University of Chicago, Chicago, IL; Neubauer Collegium, University of Chicago, Chicago, IL"
+
+- title: Seeing What We (Should) Think Through Visualization Interaction
+  year: 2018
+  contributor: Jessica Hullman
+  venue: MIT CSAIL HCI Seminar, Boston, MA
+
+- title: Interrogating Shared Representations in Mixed Initiative Systems
+  year: 2018
+  contributor: Jessica Hullman
+  venue: HCIC (Invited discussant for Jeff Heer's presentation on Agency & Automation), Watsonville CA
+
+- title: Improving Data Reasoning Through Visualization and Automation
+  year: 2018
+  contributor: Jessica Hullman
+  venue: Northwestern University Computer Science CS+X Seminar
+
+- title: Reconciling Single Vs. Multiple View Criteria in InfoVis
+  year: 2017
+  contributor: Jessica Hullman with Zening Qu
+  venue: Tableau Software (Seattle WA).
+
+- title: Seeing What We Think Through Visualization Interaction
+  year: 2017
+  contributor: Jessica Hullman
+  venue: Northwestern University Technology & Social Behavior Series Distinguished Lecture
+
+- title: Visualization Tools for Improving Reasoning with Data
+  year: 2016
+  contributor: Jessica Hullman
+  venue: Microsoft Research (New York City)
+
+- title: The Visual Uncertainty Experience
+  year: 2016
+  contributor: Jessica Hullman
+  venue: OpenVis
+  link: https://www.youtube.com/watch?v=pTVAn4oLvbc
+  category: discrete-outcome
+
+- title: Data-Driven Storytelling
+  year: 2016
+  contributor: Jessica Hullman
+  venue: Daghstuhl seminar
+
+- title: Uncertainty Visualization
+  year: 2015
+  contributor: Jessica Hullman
+  venue: NSF seminar on Hazard Mapping at University of Washington
+
+- title: Making Sense of Scales With a Database of Measurements
+  year: 2015
+  contributor: Jessica Hullman
+  venue: Design Use Build (DUB) seminar at University of Washington
+
+- title: Tools for Understanding and Repurposing Visualized Data
+  year: 2015
+  contributor: Jessica Hullman with Maneesh Agrawala
+  venue:  Tableau Software (Seattle WA)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - title: Visualizing multiverse analyses
   year: 2022
   contributor: Matthew Kay
   venue: Multiverse workshop at SIPS (Society for the Improvement of Psychological Science)
+
+- title: A biased tour of the uncertainty visualization zoo
+  year: 2021
+  contributor: Matthew Kay
+  venue: Lawrence Livermore National Laboratory
+  link: https://www.youtube.com/watch?v=eyLxh_YY3Hw
+
+- title: Uncertainty visualization with tidybayes and ggdist
+  year: 2021
+  contributor: Matthew Kay
+  venue: Bayes@Lund
+  link: https://www.youtube.com/watch?v=EtrmxMX8zWw
+
+- title: Strategies for effective uncertainty visualization
+  year: 2021
+  contributor: Matthew Kay
+  venue: Nonclinical Biostatistics Conference 2021
+
+- title: Strategies for effective uncertainty visualization
+  year: 2021
+  contributor: Matthew Kay
+  venue: Rostock Retreat, Max Plank Insitute for Demographic Research
+
+- title: Uncertainty visualization as a moral imperative
+  year: 2021
+  contributor: Matthew Kay
+  venue: BostonCHI
+  link: https://www.youtube.com/watch?v=mfQ3QVyw4N0
+
 - title: Uncertainty visualization and Bayes
   year: 2020
   contributor: Matthew Kay
   venue: Generable
   link: https://www.youtube.com/watch?v=PqCaljvE89k
-- title: A biased tour of the uncertainty visualization zoo
-  year: 2021
+
+- title: Building effective uncertainty visualizations with tidybayes and ggdist
+  year: 2020
   contributor: Matthew Kay
-  venue: Lawrence Livermore National Laboratory
-  link: https://youtu.be/eyLxh_YY3Hw
+  venue: StanCon 2020
+  link: https://www.youtube.com/watch?v=wbzfqh_3LyM
+
+- title: Uncertainty visualization as a moral imperative
+  year: 2019
+  contributor: Matthew Kay
+  venue: Northwestern University Technology and Social Behavior Speaker Series
+
+- title: "tidybayes: Tidy data + Bayesian analysis + geoms"
+  year: 2019
+  contributor: Matthew Kay
+  venue: Ann Arbor R Users Group
+
+- title: A biased tour of the uncertainty visualization zoo
+  year: 2018
+  contributor: Matthew Kay
+  venue: Tapestry 2018
+  link: https://www.youtube.com/watch?v=E1kSnWvqCw0
+  category: discrete-outcome
+
+- title: Tidy data and Bayesian analysis make uncertainty visualization fun
+  year: 2018
+  contributor: Matthew Kay
+  venue: OpenVisConf 2018
+  link: https://www.youtube.com/watch?v=vqzO-9LSoG4
+
+- title: Uncertainty visualization for scientific communication
+  year: 2018
+  contributor: Matthew Kay
+  venue: Psychology Methods Hour, University of Michigan
+
+- title: Discrete outcome uncertainty visualization
+  year: 2018
+  contributor: Matthew Kay
+  venue: Center for Bioethics and Social Sciences in Medicine, University of Michigan
+
+- title: "On weight scales, sensing, and accuracy: Improving the user interface of user-facing uncertainty in ubiquitous computing"
+  year: 2014
+  contributor: Matthew Kay
+  venue: University of Waterloo
+
+- title: Personal informatics & sleep
+  year: 2013
+  contributor: Matthew Kay
+  venue: UW CSE Summer Academy for Advancing Deaf & Hard of Hearing in Computing
+
+- title: Lullaby: A capture and access system for the sleep environment
+  year: 2012
+  contributor: Matthew Kay
+  venue: UW CSE Industry Affiliates’ Day 2012
+
