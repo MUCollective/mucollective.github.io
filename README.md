@@ -14,9 +14,22 @@ Fumeng Yang - documentation & style
 
 Take a look on [this document for installing and configuring](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) and [this document for testing](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
 
-# How to run locally
+# How to run it locally
 
 1. Install Ruby. [Guide](https://mac.install.guide/ruby/12.html)
+
+If you could not open the link, try Incognito/Privacy mode or Safari browser. The followings are an overview
+
+a. `brew install ruby-install chruby`
+
+b. `ruby-install -V` At the end of installation, there are two lines `source /usr/local/...`.
+
+c. `open -e ~/.zshrc` and add the two lines from the above as well as `chruby ruby-3.1.2`  This is the version we are going to use.
+
+d. Restart your terminal and run `ruby-install ruby 3.1.2`
+
+e. It takes a few minutes and you confirm the version of ruby 3.1.2 by running `ruby -v`
+ 
 2. Install Jekyll: `gem install jekyll`
 3. Run: `jekyll serve`
 
