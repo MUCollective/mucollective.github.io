@@ -132,9 +132,9 @@ Explanation:
 You need to prepare the followings: 
 * URLs to your release.
 
-There are two files `data/prototype.yml` and `data/software.yml`. Our suggestion is that if it is a concrete thing, then it belongs to `software`. The entry should be very much self-explanatory. 
+There are two files `_data/prototype.yml` and `_data/software.yml`. Our suggestion is that if it is a concrete thing, then it belongs to `software`. The entry should be very much self-explanatory. 
 
-An example of `data/prototype.yml`: 
+An example from `_data/prototype.yml`: 
 
 ```
 - title: Cicero
@@ -146,7 +146,7 @@ An example of `data/prototype.yml`:
   description: Cicero is a declarative grammar for responsive visualization transformatons.
 ```
 
-An example of `data/software.yml`: 
+An example from `_data/software.yml`: 
 
 ```
  title: ggidst
