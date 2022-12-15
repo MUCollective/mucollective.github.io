@@ -16,7 +16,7 @@ Fumeng Yang - writing documentation & nudging style
 Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you are not a master person, you should not need a local setup. The 2022-23 master is __Lily Ge__, and __Hyeok Kim__ (the developer) and __Fumeng Yang__ (the side worker) also have knowledge about this if you have any questions. 
 
 
-## Add a paper (for everyone)
+## Add a paper
 
 The two folders you have to pay attention to are: 
   * `_posts`: This folder provides information for papers. You need to add a new `*.md` file when you want to add a paper. 
@@ -35,7 +35,7 @@ You need to prepare the followings:
 
 This file must be called: `yyyy-mm-dd-awesome-paper.md` It gives entries to render a paper. You must specify year like `2022-12-01-awesome-paper.md`.
 
-A toy example is: 
+A toy example is below. You can copy it as your template file. 
 
 ```
 ---
@@ -44,10 +44,10 @@ category: paper
 title:  "This is an awesome paper"
 authors: "Author 1, Author 2, Author 3"
 venue: "The Lucky Conference/Journal"
-thumb: "assets/images/paper-thumb-[awesome-paper].png"
-banner: "assets/images/paper-banner-[awesome-paper].png"
+thumb: "assets/images/paper-thumb-awesome-paper.png"
+banner: "assets/images/paper-banner-awesome-paper.png"
 caption: "The caption for the banner/teaser."
-pdf: "assets/papers/yyyy-mm-dd-[awesome-paper].pdf"
+pdf: "assets/papers/yyyy-mm-dd-awesome-paper.pdf"
 bestPaper: true
 honorable: false
 github: "github.com/awesome"
@@ -67,7 +67,7 @@ Explanation:
 * __title...pdf__ - ordinary stuff. Notice that you must follow the naming style! 
 * (optional) __bestPaper__ and __honorable__ - true or false. You can also skip it. 
 * (optional) __github__ and __supplementary__ - You can also skip it.
-* (optional) __additionals__ - additional links. You can also skip it.
+* (optional) __additionals__ - additional links and a name to show. You can also skip it.
 
 Now,
 
