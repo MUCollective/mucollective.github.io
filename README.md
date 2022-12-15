@@ -16,7 +16,9 @@ Fumeng Yang - writing documentation & nudging style
 Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you are not a master person, you should not need a local setup. The 2022-23 master is __Lily Ge__, and __Hyeok Kim__ (the developer) and __Fumeng Yang__ (the side worker) also have knowledge about this if you have any questions. 
 
 
-## Add a paper
+In sum, you only need to touch `_data`, `_posts`, and `assets`. Hyeok: "If you are touching anywhere else, it means you are doing something wrong."
+
+## Add a [paper](https://mucollective.github.io/mucollective.co/publications)
 
 The two folders you have to pay attention to are: 
   * `_posts`: This folder provides information for papers. You need to add a new `*.md` file when you want to add a paper. 
@@ -78,35 +80,102 @@ Now,
 Then check out [Mu website](https://mucollective.github.io/mucollective.co/) and you should be able to see the updates (you might need to wait for a few minutes.)
 
 
-## Add a new person
+## Add a new [person](https://mucollective.github.io/mucollective.co/people)
 
-Edit `_data/people.yml` file
+You need to prepare the followings: 
+* A headshot named `people-first-last.png|jpg|jpeg|gif|bmp`. (Fumeng: I don't know if you want to use a gif, but it is possible?)
 
-- For a faculty/current student, provide their `name`, `role` (professor, phd student, post doc, etc), `department`, `school`, `image`, and website url (`link`).
+You only have to __edit__ `_data/people.yml` file and upload the image to `assets/images`. 
 
-- For an alumni, provide their `name`, current `position`, and website url (`link`).
-
-
-## Edit research area
-
-Edit `_data/research_areas.yml` file to add/remove research areas.
-
-Example research area definition:
+An example: 
 
 ```
-- name: Communicating unquantified uncertainty # name to show in the list
-  cat: unquant-uncertainty # category to query for
-  desc: We aim at communicating unquantified uncertainty. # description
+  - name: Jessica Hullman
+    role: Ginni Rometty Associate Professor
+    department: Computer Science
+    school: Northwestern University
+    image: assets/images/people-jessica-hullman.jpeg
+    link: http://users.eecs.northwestern.edu/~jhullman/
+
+```
+Explanation: 
+
+* For a faculty/current student, you should provide their `name`, `role` (professor, phd student, post doc, etc), `department`, `school`, `image`, and website url (`link`).
+
+* For alumni, you should provide their `name`, current `position`, and website url (`link`).
+
+
+## Edit [research area](https://mucollective.github.io/mucollective.co/research)
+
+You only need to edit `_data/research_areas.yml` file.
+
+An example: 
+
+```
+- name: Communicating unquantified uncertainty 
+  cat: unquant-uncertainty 
+  desc: We aim at communicating unquantified uncertainty. 
 ```
 
-In paper post files, make sure to include a topic category and to match it to the category name in the research area definitions.
+Explanation: 
+
+* __name__ is the name to show in the list
+* __cat__  is the catergory, which will be used to match and grab papers. 
+* __desc__ is the description.
 
 
+## Add or edit a [public release](https://mucollective.github.io/mucollective.co/public-release)
 
-## Edit text on homepage
+You need to prepare the followings: 
+* URLs to your release.
+
+There are two files `data/prototype.yml` and `data/software.yml`. Our suggestion is that if it is a concret thing, then it belongs to `software`. The entry should be very much self-explanatory. 
+
+An example of `data/prototype.yml`: 
+
+```
+- title: Cicero
+  contributor: Hyeok Kim
+  type: JS library
+  supplement:
+    - type: Gallery
+      link: https://see-mike-out.github.io/cicero-supplemental/
+  description: Cicero is a declarative grammar for responsive visualization transformatons.
+```
+
+An example of `data/software.yml`: 
+
+```
+ title: ggidst
+  contributor: Matthew Kay
+  type: R package
+  supplement:
+    - type: Documentation
+      link: https://mjskay.github.io/ggdist/
+    - type: Code Repository
+      link: https://github.com/mjskay/ggdist
+    - type: CRAN
+      link: https://cloud.r-project.org/web/packages/ggdist/index.html 
+  description: ggdist is an R package that provides a flexible set of ggplot2 geoms and stats designed especially for visualizing distributions and uncertainty.
+```
+
+## Add or edit a [talk](https://mucollective.github.io/mucollective.co/talks)
+
+You only need to edit `_data/talk.yml` file.
+
+```
+- title: Uncertainty visualization with tidybayes and ggdist
+  year: 2021
+  contributor: Matthew Kay
+  venue: Bayes@Lund
+  link: https://youtu.be/EtrmxMX8zWw
+```
+
+## Edit text on homepage on the top
 
 - Text on the top left section: `_data/home_text.yml`
-- Thumbnail grid on the top right section: `_data/home-images.yml`
+
+
 
 # How to update (for developer)
 
