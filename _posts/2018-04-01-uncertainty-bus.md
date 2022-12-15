@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper discrete-outcome
 title:  "Uncertainty Displays Using Quantile Dotplots or CDFs Improve Transit Decision-Making"
 authors: "Michael Fernandes, Logan Walls, Sean Munson, Jessica Hullman, Matthew Kay"
 venue: "ACM Human Factors in Computing Systems (CHI) 2018"

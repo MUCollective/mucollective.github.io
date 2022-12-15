@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper automation
 title:  "GraphScape: A Model for Automated Reasoning about Visualization Similarity and Sequencing"
 authors: "Younghoon Kim, Kanit Wongsuphasawat, Jessica Hullman, Jeffrey Heer"
 venue: "ACM Human Factors in Computing Systems (CHI) 2017"

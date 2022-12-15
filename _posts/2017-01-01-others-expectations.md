@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper bayesian-perspective
 title:  "Data Through Others' Eyes: The Impact of Visualizing Others' Expectations on Visualization Interpretation"
 authors: "Yea-Seul Kim, Katharina Reinecke, Jessica Hullman"
 venue: "IEEE Trans. Visualization & Comp. Graphics (Proc. INFOVIS) 2017"

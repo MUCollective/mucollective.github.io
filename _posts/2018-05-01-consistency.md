@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper automation
 title:  "Keeping Multiple Views Consistent: Constraints, Validations, and Exceptions in Visualization Authoring"
 authors: "Zening Qu, Jessica Hullman"
 venue: "IEEE Trans. Visualization & Comp. Graphics (Proc. INFOVIS) 2017"

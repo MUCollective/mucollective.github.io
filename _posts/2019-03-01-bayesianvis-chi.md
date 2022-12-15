@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper bayesian-perspective
 title:  "A Bayesian Cognition Approach to Improve Data Visualization"
 authors: "Yea-Seul Kim, Logan A Walls, Peter Krafft, Jessica Hullman"
 venue: "ACM Human Factors in Computing Systems (CHI) 2019"

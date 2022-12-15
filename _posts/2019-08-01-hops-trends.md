@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper discrete-outcome
 title:  "Hypothetical Outcome Plots Help Untrained Observers Judge Trends in Ambiguous Data"
 authors: "Alex Kale, Francis Nguyen, Matthew Kay, Jessica Hullman"
 venue: "IEEE Trans. Visualization & Comp. Graphics (Proc. INFOVIS) 2018"

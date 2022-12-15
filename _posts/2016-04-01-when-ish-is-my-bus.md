@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper discrete-outcome
 title:  "When(ish) is My Bus? User-centered Visualizations of Uncertainty in Everyday, Mobile Predictive Systems"
 authors: "Matthew Kay, Tara Kola, Jessica Hullman, Sean Munson"
 venue: "ACM Human Factors in Computing Systems (CHI) 2016"

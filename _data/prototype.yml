@@ -1,6 +1,7 @@
 - title: PGoG
   contributor: Xiaoying Pu, Matthew Kay
   type: R package
+  category: uncertainty-gog
   supplement:
     - type: Code Repository
       link: https://github.com/mucollective/pgog
