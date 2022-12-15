@@ -185,6 +185,32 @@
   contributor: Jessica Hullman with Eytan Adar
   venue:  Gale Cengage Learning (Farmington Hills, MI)
 
+- title: "Letting the Data (and People) Speak: Visualization as Communication and Analysis"
+  year: 2012
+  contributor: Jessica Hullman
+  venue:  Tableau Software (Seattle, WA)
+
+- title: Visualization as Communication and Analysis
+  year: 2012
+  contributor: Jessica Hullman
+  venue:  Design Use Build (DUB) seminar at University of Washington
+
+- title: Implications of the Crowd in Collaborative Visual Analytics
+  year: 2011
+  contributor: Jessica Hullman
+  venue:  HCI Lab at Tufts University Dept. of Computer Science (Cambridge, MA)
+
+- title: "Presenting Social Information Online: Evidence of Effects on Visual Judgments"
+  year: 2011
+  contributor: Jessica Hullman
+  venue:  IBM Collaborative User Experience Research Lab (CUE), IBM T.J. Watson Research Center, Cambridge, MA
+
+- title: "Visual Stories: Adapting Narratology for InfoVis"
+  year: 2010
+  contributor: Jessica Hullman
+  venue:  F. I. R. S. T. (Featured Information Research Student Talks), University of Michigan School of Information
+
+
 - title: Visualizing multiverse analyses
   year: 2022
   contributor: Matthew Kay
@@ -229,6 +255,7 @@
   contributor: Matthew Kay
   venue: StanCon 2020
   link: https://www.youtube.com/watch?v=wbzfqh_3LyM
+  category: bayesian-perspective
 
 - title: Uncertainty visualization as a moral imperative
   year: 2019
