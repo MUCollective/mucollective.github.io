@@ -55,10 +55,10 @@ You need to prepare the followings:
 
 This file must be called: `yyyy-mm-dd-[awesome-paper].md` It gives entries to render a paper. 
 
-```yaml
+```
 ---
 layout: paper
-category: paper [^1]: This can take more than one keyword, like `paper quant-uncerntainty`. The second keyword is used to put the paper under a research area, which you can find under `_data/research_area.yml` (the `cat` field.) If you don't know, leave it as `paper`. 
+category: paper //This can take more than one keyword, like `paper quant-uncerntainty`. The second keyword is used to put the paper under a research area, which you can find under `_data/research_area.yml` (the `cat` field.) If you don't know, leave it as `paper`. 
 title:  "Hypothetical Outcome Plots Outperform Error Bars and Violin Plots for Inferences about Reliability of Variable Ordering"
 authors: "Jessica Hullman, Paul Resnick, Eytan Adar"
 venue: "PLOS ONE 2015"
