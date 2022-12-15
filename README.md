@@ -8,36 +8,15 @@ Hyeok Kim - rebuilding the template.
 
 Lily Ge - building the individual md files.
 
-Fumeng Yang - documentation & style
+Fumeng Yang - writing documentation & nudging style
 
-# Prerequisites
 
-Take a look on [this document for installing and configuring](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) and [this document for testing](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
-
-# How to run it locally
-
-1. Install Ruby. [Guide](https://mac.install.guide/ruby/12.html) If you could not open the link, try Incognito/Privacy mode or Safari browser. The followings are an overview: 
-
-   * a. `brew install ruby-install chruby`. 
-   
-   * b. `ruby-install -V` At the end of installation, there are two lines `source /usr/local/...`.  
-   
-   * c. `open -e ~/.zshrc` and add the two lines from the above as well as `chruby ruby-3.1.2`  This is the version we are going to use.  
-   
-   * d. Restart your terminal and run `ruby-install ruby 3.1.2`. 
-   
-   * e. It takes a few minutes and you confirm the version of ruby 3.1.2 by running `ruby -v`. If not, try to open a new Terminal. 
- 
-2.  Install Jekyll: `gem install jekyll` You might need to run this using `sudo`.
-
-3.  Run: `jekyll serve`
-
-# How to Update
+# How to Update (for everyone)
 
 Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you are not a master person, you should not need a local setup. The 2022-23 master is __Lily Ge__, and __Hyeok Kim__ (the developer) and __Fumeng Yang__ (the side worker) also have knowledge about this if you have any questions. 
 
 
-## Adding a paper (for everyone)
+## Add a paper (for everyone)
 
 The two folders you have to pay attention to are: 
   * `_posts`: This folder provides information for papers. You need to add a new `*.md` file when you want to add a paper. 
@@ -83,12 +62,12 @@ This is our awesome paper published at the Lucky Conference.
 ```
 
 Explanation: 
-* __layout: paper__: this must be `paper`.
-* __category: paper__: This can take more than one keyword, like `paper quant-uncerntainty`. The second keyword is used to put the paper under a research area, which you can find under `_data/research_area.yml` (the `cat` field.) If you don't know, leave it as `paper`. 
-* __title...pdf__: ordinary stuff. Notice that you must follow the naming style! 
-* (optional) __bestPaper__ and __honorable__: true or false. You can also skip it if it is false. 
-* (optional) __github__ and __supplementary__: You can also skip it if it is false.
-* (optional) __additionals__: additional links. You can also skip it if it is false.
+* __layout: paper__ - this must be `paper`.
+* __category: paper__ - This can take more than one keyword, like `paper quant-uncerntainty`. The second keyword is used to put the paper under a research area, which you can find under `_data/research_area.yml` (the `cat` field.) If you don't know, leave it as `paper`. 
+* __title...pdf__ - ordinary stuff. Notice that you must follow the naming style! 
+* (optional) __bestPaper__ and __honorable__ - true or false. You can also skip it. 
+* (optional) __github__ and __supplementary__ - You can also skip it.
+* (optional) __additionals__ - additional links. You can also skip it.
 
 Now,
 
@@ -99,33 +78,57 @@ Now,
 Then check out [Mu website](https://mucollective.github.io/mucollective.co/) and you should be able to see the updates (you might need to wait for a few minutes.)
 
 
-## Home
-
-- Text on the top left section: `_data/home_text.yml`
-- Thumbnail grid on the top right section: `_data/home-images.yml`
-
-
-## People
+## Add a new person
 
 Edit `_data/people.yml` file
 
-- For faculty/current student, provide their `name`, `role` (professor, phd student, post doc, etc), `department`, `school`, `image`, and website url (`link`).
-- For alumni, provide their `name`, current `position`, and website url (`link`).
+- For a faculty/current student, provide their `name`, `role` (professor, phd student, post doc, etc), `department`, `school`, `image`, and website url (`link`).
 
-## Assets
+- For an alumni, provide their `name`, current `position`, and website url (`link`).
 
-All the images are stored under `assets/images` and pdfs are under `assets/papers`.
 
-## Research
+## Edit research area
 
 Edit `_data/research_areas.yml` file to add/remove research areas.
 
 Example research area definition:
 
-```yaml
+```
 - name: Communicating unquantified uncertainty # name to show in the list
   cat: unquant-uncertainty # category to query for
   desc: We aim at communicating unquantified uncertainty. # description
 ```
 
 In paper post files, make sure to include a topic category and to match it to the category name in the research area definitions.
+
+
+
+## Edit text on homepage
+
+- Text on the top left section: `_data/home_text.yml`
+- Thumbnail grid on the top right section: `_data/home-images.yml`
+
+# How to update (for developer)
+
+
+## Prerequisites
+
+Take a look on [this document for installing and configuring](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) and [this document for testing](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+
+## How to run it locally
+
+1. Install Ruby. [Guide](https://mac.install.guide/ruby/12.html) If you could not open the link, try Incognito/Privacy mode or Safari browser. The followings are an overview: 
+
+   * a. `brew install ruby-install chruby`. 
+   
+   * b. `ruby-install -V` At the end of installation, there are two lines `source /usr/local/...`.  
+   
+   * c. `open -e ~/.zshrc` and add the two lines from the above as well as `chruby ruby-3.1.2`  This is the version we are going to use.  
+   
+   * d. Restart your terminal and run `ruby-install ruby 3.1.2`. 
+   
+   * e. It takes a few minutes and you confirm the version of ruby 3.1.2 by running `ruby -v`. If not, try to open a new Terminal. 
+ 
+2.  Install Jekyll: `gem install jekyll` You might need to run this using `sudo`.
+
+3.  Run: `jekyll serve`
