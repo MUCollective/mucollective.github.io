@@ -16,7 +16,7 @@ Fumeng Yang - writing documentation & nudging style
 Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you are not a master person, you should not need a local setup. The 2022-23 master is __Lily Ge__ (:woman_pilot:); __Hyeok Kim__ (the developer :man_technologist:) and __Fumeng Yang__ (the side worker :woman_juggling:) also have knowledge about this if you have any questions. 
 
 
-In sum, you only need to touch `_data`, `_posts`, and `assets`. __Hyeok: "If you are touching anywhere else, it means you are doing something wrong."__
+In sum, you only need to touch `_data`, `_posts`, and `assets`. __Hyeok: "If you are touching anything else, it means you are doing something wrong."__
 
 ## Add a [paper](https://mucollective.github.io/mucollective.co/publications)
 
