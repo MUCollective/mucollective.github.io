@@ -113,15 +113,18 @@ An example:
 
 ```
 - name: Communicating unquantified uncertainty 
-  cat: unquant-uncertainty 
+  category: unquant-uncertainty 
   desc: We aim at communicating unquantified uncertainty. 
+  image:
+    - "assets/images/research-image-...."
 ```
 
 Explanation: 
 
 * __name__ is the name to show in the list
-* __cat__  is the catergory, which will be used to match and grab papers. 
+* __category__  is the catergory, which will be used to match and grab papers. 
 * __desc__ is the description.
+* __image__ is the list of related images to show (suggestion: upto 2). You can list images in the YAML list format.
 
 
 ## Add or edit a [public release](https://mucollective.github.io/mucollective.co/public-release)
