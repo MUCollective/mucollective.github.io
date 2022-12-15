@@ -129,7 +129,7 @@ Explanation:
 You need to prepare the followings: 
 * URLs to your release.
 
-There are two files `data/prototype.yml` and `data/software.yml`. Our suggestion is that if it is a concret thing, then it belongs to `software`. The entry should be very much self-explanatory. 
+There are two files `data/prototype.yml` and `data/software.yml`. Our suggestion is that if it is a concrete thing, then it belongs to `software`. The entry should be very much self-explanatory. 
 
 An example of `data/prototype.yml`: 
 
