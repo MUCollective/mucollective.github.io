@@ -24,7 +24,7 @@ The two folders you have to pay attention to are:
 
 You need to prepare the followings: 
   * __a unique ID__: say `awesome-paper` and it is published in `yyyy`. This ID is used everywhere to grab information for rendering the website. 
-  * __a `.md` file__ (see below) that will be uploaded to `_posts` : you __must__ name it `yyyy-mm-dd-awesome-paper.pdf` The month and date aren't important. You can use any values.  
+  * __a `.md` file__ (see below) that will be uploaded to `_posts` : you __must__ name it `yyyy-mm-dd-awesome-paper.md` The month and date aren't important. You can use any values.  
   * __the paper PDF__ that will be uploaded to `assets/papers/`: you __must__ name it `yyyy-awesome-paper.pdf`
   * __a teaser/banner__ that will be uploaded to `assets/images/`: you __must__ name it `paper-banner-awesome-paper.png|jpg|jpeg|gif|bmp`. The width should be less than 1200px, and we suggest to use a 4:3 aspect ratio.
   * __a thumbnail__ that will be uploaded to `assets/images/`: you __must__ name it `paper-thumb-awesome-paper.png|jpg|jpeg|gif|bmp`. The width should be less than 1200px, and we suggest to use a 4:3 aspect ratio.
