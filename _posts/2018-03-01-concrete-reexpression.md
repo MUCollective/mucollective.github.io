@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper automation
 title:  "Improving Comprehension of Measurements Using Concrete Re-expression Strategies"
 authors: "Jessica Hullman, Yea-Seul Kim, Francis Nguyen, Lauren Speers, Maneesh Agrawala"
 venue: "ACM Human Factors in Computing Systems (CHI) 2018"

@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper automation
 title:  "Generating Personalized Spatial Analogies for Distances and Areas"
 authors: "Yea-Seul Kim, Jessica Hullman, Maneesh Agrawala"
 venue: "ACM Human Factors in Computing Systems (CHI) 2016"

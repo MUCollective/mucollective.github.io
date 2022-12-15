@@ -19,6 +19,7 @@
 
 .paper-grid {
   display: grid;
+  grid-template-rows: fit-content(200px);
 
   @media screen and (min-width: $xlg) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -42,12 +43,22 @@
 
   column-gap: 1rem;
   row-gap: 1rem;
+
+  margin-bottom: 1rem;
 }
 
 .post-thumb-item {
   border: 1px solid #ddd;
   padding: 0;
   border-radius: 0.25rem;
+
+  span.category {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #787878;
+    margin-top: 0rem;
+    margin-bottom: 0.25rem;
+  }
 
   &:hover {
     box-shadow: 0 0 2.5px rgba(0, 0, 0, 0.1), 0 0 7px rgba(0, 0, 0, 0.05);
@@ -63,6 +74,7 @@
   .post-thumb-content {
     padding: 0.5rem;
   }
+
   h5 {
     font-size: 0.9rem;
     font-weight: 400;
@@ -71,6 +83,12 @@
 
     a {
       color: #333333;
+    }
+
+    &.software {
+      font-weight: 600;
+      font-family: monospace;
+      color: $key-color;
     }
   }
 

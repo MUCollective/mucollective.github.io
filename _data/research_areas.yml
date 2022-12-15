@@ -1,11 +1,19 @@
-- name: Visualizing quantified uncertainty
-  cat: quant-uncerntainty
-  desc: We aim at visualization quantified uncertainty.
+- name: Discrete Outcome Visualizations of Uncertainty
+  category: discrete-outcome
+  desc: "Most uncertainty visualizations are static and present probability continuously, as in density plots or CDFs, or they use difficult to understand constructs like confidence intervals. Presenting a set of draws in a static plot or over time via animation can help people understand what an uncertainty visualization communicates. We first demonstrated the value of hypothetical outcome plots (HOPs): animated visualizations in which each frame presents a draw from a distribution one wishes to convey, whether univariate or multivariate. Perceptual psychology shows that a frequency encoding does not require conscious effort to interpret, while judgment and decision making demonstrates how framing probabilities as frequency (e.g., 3 out of 10 rather than 30%) eases interpretation for novices and experts alike. HOPs naturally express joint probabilities and can be applied to any existing visualization technique as long as encodings can be made consistent across frames. We next introduced quantile dotplots: a discrete outcome representation of a probability density function which in experiments have shown lower error in uncertainty estimation and higher decision quality than other displays (such as intervals and densities). We have found that encodings like the quantile dotplot better support everyday decisions and reasoning, like when to leave for the bus and judgments or how reliable the effect reported in media coverage of a scientific study is."
 
-- name: Communicating unquantified uncertainty
-  cat: unquant-uncertainty
-  desc: We aim at communicating unquantified uncertainty.
+- name: Uncertainty in data analysis and model specification
+  category: uncertainty-model-spec
+  desc: "Beyond the statistical uncertainty typically communicated in uncertainty visualization, uncertainty is an inherent feature of data analysis pipelines themselves. Data sources, transformation choices, and modelling choices all contribute to uncertainty beyond that captured quantitatively by any single model. How should we deal with these uncertainties during data analysis? How should we communicate these uncertainties once data has been analyzed? What alternatives are there to just reporting the one “best” model that can acknowledge these uncertainties?"
 
-- name: Formalizing visualization-based communication
-  cat: formalization-comm
-  desc: We aim at formalizing visualizatino-based communication to support ...
+- name: A Bayesian Perspective on Data Interpretation
+  category: bayesian-perspective
+  desc: "Users' prior knowledge undoubtedly impacts the conclusions they draw from data. However, visualization design and evaluation techniques rarely account for prior beliefs, and methods for evaluating visualizations and other summaries tend to rely on measures of how well a person can read a visualization or how they feel about it, rather than how much it affects their beliefs. We have developed Bayesian approaches to designing interactions with data and evaluation visualizations. We first showed how enabling users to articulate their predictions of data via graphical elicitation before they see the observed data in a visualization can improve their ability to understand and recall the data. Properties of the alignment between a person's prior beliefs, the data, and others' (visualized) beliefs can be used to predict how people will update their beliefs. We then demonstrated Bayesian models of visualization cognition that compare a user’s posterior beliefs about a visualized phenomena to normative beliefs under Bayesian inference. We show, for example, how a Bayesian approach provides more insight than other approaches into why some visualizations perform poorly, how individual belief updating from data is frequently noisy, and how Bayesian inference can be used to personalize how data is shown to a user to improve their updating."
+
+- name: Uncertainty Visualization in the Grammar of Graphics
+  category: uncertainty-gog
+  desc: "Building uncertainty visualizations can be a pain. The Grammar of Graphics provides an abstraction for building visualizations generally, but it does not explicitly represent uncertainty, which can make it difficult to quickly prototype uncertainty visualizations, with plenty of room for errors. To better leverage the Grammar of Graphics to easily build uncertainty visualizations, we have developed an abstract grammar, the Probabilistic Grammar of Graphics (PGoG), as well as the PGoG and tidybayes R packages."
+
+- name: Automated Design of Visualizations and Data Summaries
+  category: automation
+  desc: "Expert data analysts and visualization designers rely on a number of implicit design strategies and guidelines to negotiate design trade-offs that arise in creating visualizations. Our work proposes approaches to learn and formalize design principles related to specific types of visualizations and data summaries, making it possible to automatically generate them. Visualization construction problems we have tackled include identifying design principles for multiple views and encoding them as constraints, auto-generating and visualizing measurement analogies (e.g., \"300 gal is about the volume of a hot tub\", \"59 acres is twice the size of Millenium Park\" for a reader in Chicago) on demand for news readers, automated generation and annotation of narrative visualizations, and automated reasoning about visualization sequence and similarity."

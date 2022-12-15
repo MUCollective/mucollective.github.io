@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper uncertainty-model-spec
 title:  "The Garden of Forking Paths in Visualization: A Design Space for Reliable Exploratory Visual Analytics"
 authors: "Xiaoying Pu, Matthew Kay"
 venue: "BELIV 2018"

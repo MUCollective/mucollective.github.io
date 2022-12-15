@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper uncertainty-model-spec
 title:  "Increasing the Transparency of Research Papers with Explorable Multiverse Analyses"
 authors: "Pierre Dragicevic, Yvonne Jansen, Abhraneel Sarma, Matthew Kay, and Fanny Chevalier"
 venue: "ACM Human Factors in Computing Systems (CHI) 2019"

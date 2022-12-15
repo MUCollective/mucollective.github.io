@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper uncertainty-model-spec
 title:  "Decision-Making Under Uncertainty in Research Synthesis: Designing for the Garden of Forking Paths"
 authors: "Alex Kale, Matthew Kay, Jessica Hullman"
 venue: "ACM Human Factors in Computing Systems (CHI) 2019"

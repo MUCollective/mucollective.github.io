@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper bayesian-perspective
 title:  "Explaining the Gap: Visualizing One's Predictions Improves Recall and Comprehension of Data"
 authors: "Yea-Seul Kim, Katharina Reinecke, Jessica Hullman"
 venue: "ACM Human Factors in Computing Systems (CHI) 2017"
