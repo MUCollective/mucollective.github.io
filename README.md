@@ -16,7 +16,7 @@ Take a look on [this document for installing and configuring](https://docs.githu
 
 # How to run it locally
 
-1. Install Ruby. [Guide](https://mac.install.guide/ruby/12.html)
+## Install Ruby. [Guide](https://mac.install.guide/ruby/12.html)
 
 If you could not open the link, try Incognito/Privacy mode or Safari browser. The followings are an overview
 
@@ -28,10 +28,13 @@ c. `open -e ~/.zshrc` and add the two lines from the above as well as `chruby ru
 
 d. Restart your terminal and run `ruby-install ruby 3.1.2`
 
-e. It takes a few minutes and you confirm the version of ruby 3.1.2 by running `ruby -v`
+e. It takes a few minutes and you confirm the version of ruby 3.1.2 by running `ruby -v`. If not, try to open a new Terminal. 
  
-2. Install Jekyll: `gem install jekyll`
-3. Run: `jekyll serve`
+##  Install Jekyll: `gem install jekyll`
+
+You might need to run this using `sudo`.
+
+##  Run: `jekyll serve`
 
 # How to Update
 
