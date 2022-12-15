@@ -44,37 +44,59 @@ The two folders you have to pay attention to are:
   *  `assets`: This folder provides the actual thumbnails and PDFs. 
 
 You need to prepare the followings: 
-  * __a unique ID__: say [awesome-paper] and it is published in `yyyy`. This ID is used everywhere to grab information for rendering the website. 
-  * __a `.md` file__ (see below) that will be uploaded to `_posts` : you __must__ name it `yyyy-mm-dd-[awesome-paper].pdf` The month and date aren't important. You can use any values.  
-  * __the paper PDF__ that will be uploaded to `assets/papers/`: you __must__ name it `yyyy-[awesome-paper].pdf`
-  * __a thumbnail__ that will be uploaded to `assets/images/`: you __must__ name it `paper-banner-[awesome-paper].png|jpg|jpeg|gif|bmp`. The width should be less than 1200px, and we suggest to use a 4:3 aspect ratio.
+  * __a unique ID__: say `awesome-paper` and it is published in `yyyy`. This ID is used everywhere to grab information for rendering the website. 
+  * __a `.md` file__ (see below) that will be uploaded to `_posts` : you __must__ name it `yyyy-mm-dd-awesome-paper.pdf` The month and date aren't important. You can use any values.  
+  * __the paper PDF__ that will be uploaded to `assets/papers/`: you __must__ name it `yyyy-awesome-paper.pdf`
+  * __a teaser/banner__ that will be uploaded to `assets/images/`: you __must__ name it `paper-banner-awesome-paper.png|jpg|jpeg|gif|bmp`. The width should be less than 1200px, and we suggest to use a 4:3 aspect ratio.
+  * __a thumbnail__ that will be uploaded to `assets/images/`: you __must__ name it `paper-thumb-awesome-paper.png|jpg|jpeg|gif|bmp`. The width should be less than 1200px, and we suggest to use a 4:3 aspect ratio.
   * authors, abstract, venue, year, awards
   * other links you want to show
 
 ### The `.md` file
 
-This file must be called: `yyyy-mm-dd-[awesome-paper].md` It gives entries to render a paper. 
+This file must be called: `yyyy-mm-dd-awesome-paper.md` It gives entries to render a paper. You must specify year like `2022-12-01-awesome-paper.md`.
+
+A toy example is: 
 
 ```
 ---
 layout: paper
-category: paper //This can take more than one keyword, like `paper quant-uncerntainty`. The second keyword is used to put the paper under a research area, which you can find under `_data/research_area.yml` (the `cat` field.) If you don't know, leave it as `paper`. 
-title:  "Hypothetical Outcome Plots Outperform Error Bars and Violin Plots for Inferences about Reliability of Variable Ordering"
-authors: "Jessica Hullman, Paul Resnick, Eytan Adar"
-venue: "PLOS ONE 2015"
-thumb: "assets/images/paper-thumb-hops.png"
-banner: "assets/images/paper-banner-hops.png"
-caption: "A) Representations of uncertainty compared in our study, B) HOPs limiting case, C) HOPs can express properties of a joint distribution."
-pdf: "assets/papers/2015-hops.pdf"
+category: paper 
+title:  "This is an awesome paper"
+authors: "Author 1, Author 2, Author 3"
+venue: "The Lucky Conference/Journal"
+thumb: "assets/images/paper-thumb-[awesome-paper].png"
+banner: "assets/images/paper-banner-[awesome-paper].png"
+caption: "The caption for the banner/teaser."
+pdf: "assets/papers/yyyy-mm-dd-[awesome-paper].pdf"
+bestPaper: true
+honorable: false
+github: "github.com/awesome"
+supplementary: "https://osf.io/awesome/"
+additionals:
+  - name: "Gallery"
+    link: "https://awesomepaper.com"
 ---
 
 <!-- abstract -->
-Many visual depictions of probability distributions, such as error bars, are difficult for users to accurately interpret. We present and study an alternative representation, Hypothetical Outcome Plots (HOPs), that animates a finite set of individual draws. In contrast to the statistical background required to interpret many static representations of distributions, HOPs require relatively little background knowledge to interpret. Instead, HOPs enables viewers to infer properties of the distribution using mental processes like counting and integration. We conducted an experiment comparing HOPs to error bars and violin plots. With HOPs, people made much more accurate judgments about plots of two and three quantities. Accuracy was similar with all three representations for most questions about distributions of a single quantity.
+This is our awesome paper published at the Lucky Conference. 
 ```
 
-### content
+Explanation: 
+* __layout: paper__: this must be `paper`.
+* __category: paper__: This can take more than one keyword, like `paper quant-uncerntainty`. The second keyword is used to put the paper under a research area, which you can find under `_data/research_area.yml` (the `cat` field.) If you don't know, leave it as `paper`. 
+* __title...pdf__: ordinary stuff. Notice that you must follow the naming style! 
+* (optional) __bestPaper__ and __honorable__: true or false. You can also skip it if it is false. 
+* (optional) __github__ and __supplementary__: You can also skip it if it is false.
+* (optional) __additionals__: additional links. You can also skip it if it is false.
 
-Provde an abstract only
+Now,
+
+* upload `yyyy-mm-dd-awesome-paper.md` to `_posts`
+* upload `yyyy-awesome-paper.pdf` to `assets/papers`
+* upload `paper-banner-awesome-paper.png` and `paper-thumb-awesome-paper.png` to `assets/images`
+
+Then check out [Mu website](https://mucollective.github.io/mucollective.co/) and you should be able to see the updates (you might need to wait for a few minutes.)
 
 
 ## Home
