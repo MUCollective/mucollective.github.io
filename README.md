@@ -1,6 +1,6 @@
 # MU Collective Website
 
-This is (currently) an in-progress repo for mucollective.co renewal. This website will be built on `Jekyll`.
+This is (currently) an in-progress repo for mucollective.co renewal. This website will be built on `Jekyll`. 
 
 # Staff
 
@@ -13,7 +13,7 @@ Fumeng Yang - writing documentation & nudging style
 
 # How to update (for everyone)
 
-Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you are not a master person, you should not need a local setup. The 2022-23 master is __Lily Ge__; __Hyeok Kim__ (the developer) and __Fumeng Yang__ (the side worker) also have knowledge about this if you have any questions. 
+Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you are not a master person, you should not need a local setup. The 2022-23 master is __Lily Ge__ (:woman_pilot:); __Hyeok Kim__ (the developer :man_technologist:) and __Fumeng Yang__ (the side worker :woman_juggling:) also have knowledge about this if you have any questions. 
 
 
 In sum, you only need to touch `_data`, `_posts`, and `assets`. __Hyeok: "If you are touching anywhere else, it means you are doing something wrong."__
