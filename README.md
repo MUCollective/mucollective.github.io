@@ -35,7 +35,7 @@ You need to prepare the followings:
 
 ### The `.md` file
 
-This file must be called: `yyyy-mm-dd-awesome-paper.md` It gives entries to render a paper. Again, you must specify year like `2022-12-01-awesome-paper.md` but months and days are not used. 
+This file must be called: `yyyy-mm-dd-awesome-paper.md` It gives entries to render a paper. Again, you must specify year like `2022-12-01-awesome-paper.md` but months and days are not important. 
 
 A toy example is below. You can copy it as your template file. 
 
