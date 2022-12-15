@@ -40,24 +40,25 @@ Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you ar
 ## Adding a paper (for everyone)
 
 The two folders you have to pay attention to are: 
-* `_posts`: This folder provides information for papers. You need to add a new `*.md` file when you want to add a paper. 
-*  `assets`: This folder provides the actual thumbnails and PDFs. 
+  * `_posts`: This folder provides information for papers. You need to add a new `*.md` file when you want to add a paper. 
+  *  `assets`: This folder provides the actual thumbnails and PDFs. 
 
 You need to prepare the followings: 
-* __a unique ID__: say [awesome-paper] and it is published in `yyyy`. This ID is used everywhere to grab information for rendering the website. 
-* __a `.md` file__ (see below) that will be uploaded to `_posts` : you __must__ name it `yyyy-mm-dd-[awesome-paper].pdf` The month and date aren't important. You can use any values.  
-* __the paper PDF__ that will be uploaded to `assets/papers/`: you __must__ name it `yyyy-[awesome-paper].pdf`
-* __a thumbnail__ that will be uploaded to `assets/images/`: you __must__ name it `paper-banner-[awesome-paper].png|jpg|jpeg|gif|bmp`. The width should be less than 1200px, and we suggest to use a 4:3 aspect ratio.
-* authors, abstract, venue, year, awards
-* other links you want to show
+  * __a unique ID__: say [awesome-paper] and it is published in `yyyy`. This ID is used everywhere to grab information for rendering the website. 
+  * __a `.md` file__ (see below) that will be uploaded to `_posts` : you __must__ name it `yyyy-mm-dd-[awesome-paper].pdf` The month and date aren't important. You can use any values.  
+  * __the paper PDF__ that will be uploaded to `assets/papers/`: you __must__ name it `yyyy-[awesome-paper].pdf`
+  * __a thumbnail__ that will be uploaded to `assets/images/`: you __must__ name it `paper-banner-[awesome-paper].png|jpg|jpeg|gif|bmp`. The width should be less than 1200px, and we suggest to use a 4:3 aspect ratio.
+  * authors, abstract, venue, year, awards
+  * other links you want to show
 
 ### The `.md` file
 
-This file must be called: `yyyy-mm-dd-[awesome-paper].md` It gives information to render a paper. 
+This file must be called: `yyyy-mm-dd-[awesome-paper].md` It gives entries to render a paper. 
 
+```yaml
 ---
-layout: #
-category: paper
+layout: paper
+category: //
 title:  "Hypothetical Outcome Plots Outperform Error Bars and Violin Plots for Inferences about Reliability of Variable Ordering"
 authors: "Jessica Hullman, Paul Resnick, Eytan Adar"
 venue: "PLOS ONE 2015"
@@ -69,7 +70,7 @@ pdf: "assets/papers/2015-hops.pdf"
 
 <!-- abstract -->
 Many visual depictions of probability distributions, such as error bars, are difficult for users to accurately interpret. We present and study an alternative representation, Hypothetical Outcome Plots (HOPs), that animates a finite set of individual draws. In contrast to the statistical background required to interpret many static representations of distributions, HOPs require relatively little background knowledge to interpret. Instead, HOPs enables viewers to infer properties of the distribution using mental processes like counting and integration. We conducted an experiment comparing HOPs to error bars and violin plots. With HOPs, people made much more accurate judgments about plots of two and three quantities. Accuracy was similar with all three representations for most questions about distributions of a single quantity.
-
+```
 
 ### content
 
