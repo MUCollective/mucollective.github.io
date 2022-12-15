@@ -18,7 +18,7 @@ Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you ar
 
 In sum, you only need to touch `_data`, `_posts`, and `assets`. __Hyeok: "If you are touching anything else, it means you are doing something wrong."__
 
-## Add a [paper](https://mucollective.github.io/mucollective.co/publications)
+## Add a [paper](https://mucollective.github.io/mucollective.co/publications) :page_facing_up:
 
 The two folders you have to pay attention to are: 
   * `_posts`: This folder provides information for papers. You need to add a new `*.md` file when you want to add a paper. 
@@ -80,7 +80,7 @@ Now,
 Then check out [Mu website](https://mucollective.github.io/mucollective.co/) and you should be able to see the updates (you might need to wait for a few minutes.)
 
 
-## Add a new [person](https://mucollective.github.io/mucollective.co/people)
+## Add a new [person](https://mucollective.github.io/mucollective.co/people) :frowning_person:
 
 You need to prepare the followings: 
 * A 1x1 headshot named `people-first-last.png|jpg|jpeg|gif|bmp`. (Fumeng: I don't know if you want to use a gif, but it is possible?)
@@ -105,7 +105,7 @@ Explanation:
 * For alumni, you should provide their `name`, current `position`, and website url (`link`).
 
 
-## Edit [research area](https://mucollective.github.io/mucollective.co/research)
+## Edit [research area](https://mucollective.github.io/mucollective.co/research) :mortar_board:
 
 You only need to edit `_data/research_areas.yml` file.
 
@@ -127,7 +127,7 @@ Explanation:
 * __image__ is the list of related images to show (suggestion: upto 2). You can list images in the YAML list format.
 
 
-## Add or edit a [public release](https://mucollective.github.io/mucollective.co/public-release)
+## Add or edit a [public release](https://mucollective.github.io/mucollective.co/public-release) :earth_americas:
 
 You need to prepare the followings: 
 * URLs to your release.
@@ -162,7 +162,7 @@ An example of `data/software.yml`:
   description: ggdist is an R package that provides a flexible set of ggplot2 geoms and stats designed especially for visualizing distributions and uncertainty.
 ```
 
-## Add or edit a [talk](https://mucollective.github.io/mucollective.co/talks)
+## Add or edit a [talk](https://mucollective.github.io/mucollective.co/talks) :speech_balloon:
 
 You only need to edit `_data/talk.yml` file.
 
