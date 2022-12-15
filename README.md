@@ -11,7 +11,7 @@ Lily Ge - building the individual md files.
 Fumeng Yang - writing documentation & nudging style
 
 
-# How to Update (for everyone)
+# How to update (for everyone)
 
 Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you are not a master person, you should not need a local setup. The 2022-23 master is __Lily Ge__, and __Hyeok Kim__ (the developer) and __Fumeng Yang__ (the side worker) also have knowledge about this if you have any questions. 
 
