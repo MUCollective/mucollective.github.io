@@ -24,8 +24,12 @@ title: "Home"
     <h3>Research Areas</h3>
   </div>
   <div class="image-grid">
-    {% for image in site.data.home_images %}
-       {% include home-image.html url=image.url img=image.img alt=image.alt %}
+    {% for item in site.data.research_areas %}
+       {% include research-area-thumb.html
+          name=item.name
+          category=item.category
+          desc=item.desc
+        %}
     {% endfor %}
   </div>
 

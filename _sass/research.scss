@@ -17,6 +17,10 @@
   }
 }
 
+.content-wrap {
+  display: flex;
+}
+
 .paper-grid {
   display: grid;
   grid-template-rows: fit-content(200px);

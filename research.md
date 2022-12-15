@@ -8,9 +8,16 @@ title: "Research"
     <div class="title-wrap">
       <h3>{{topic.name}}</h3>
     </div>
+    <div class="content-wrap">
     {% if topic.desc %}
       <p>{{topic.desc}}</p>
     {% endif %}
+    {% if topic.image %}
+      {% for image in topic.image %}
+      <img src="{{image | relative_url}}" alt="{{topic.name}} description image" />
+      {% endfor %}
+    {% endif %}
+    </div>
     <h4>Related contributions</h4>
     <div class="paper-grid">
       {% for post in site.posts %}
