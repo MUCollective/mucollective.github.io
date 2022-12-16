@@ -18,6 +18,8 @@ Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you ar
 
 In sum, you only need to touch `_data`, `_posts`, and `assets`. __Hyeok: "If you are touching anything else, it means you are doing something wrong."__
 
+After your edits, wait for a few minutes and check out [Mu website](https://mucollective.github.io/mucollective.co/) and you should be able to see the updates.
+
 ## Add a [paper](https://mucollective.github.io/mucollective.co/publications) :page_facing_up:
 
 The two folders you have to pay attention to are: 
@@ -77,13 +79,12 @@ Now,
 * upload `yyyy-awesome-paper.pdf` to `assets/papers`
 * upload `paper-banner-awesome-paper.png` and `paper-thumb-awesome-paper.png` to `assets/images`
 
-Then check out [Mu website](https://mucollective.github.io/mucollective.co/) and you should be able to see the updates (you might need to wait for a few minutes.)
-
+You are all set.
 
 ## Add a new [person](https://mucollective.github.io/mucollective.co/people) :frowning_person:
 
 You need to prepare the followings: 
-* A 1x1 headshot named `people-first-last.png|jpg|jpeg|gif|bmp`. (Fumeng: I don't know if you want to use a gif, but it is possible?)
+* A 1x1 headshot named `people-first-last.png|jpg|jpeg|gif|bmp`. (Fumeng: I don't know if you want to use a gif, but it is possible?) You must follow the naming style `people-...`.
 
 You only have to __edit__ `_data/people.yml` file and upload the image to `assets/images`. 
 
