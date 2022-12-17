@@ -1,6 +1,6 @@
 # MU Collective Website
 
-This is (currently) an in-progress repo for mucollective.co renewal. This website will be built on `Jekyll`. 
+This is (currently) an in-progress repo for mucollective.co renewal. This website will be built on `Jekyll`.
 
 ## Staff
 
@@ -18,7 +18,7 @@ In sum, you only need to touch `_data`, `_posts`, and `assets`. __Hyeok: "If you
 
 After your edits, wait for a few minutes and check out [Mu website](https://mucollective.github.io/mucollective.co/) and you should be able to see the updates.
 
-### Add a [paper](https://mucollective.github.io/mucollective.co/publications) :page_facing_up:
+### Add a [paper](https://mucollective.github.io/mucollective.co/publications) :page_facing_up
 
 The two folders you have to pay attention to are:
 
@@ -30,8 +30,9 @@ You need to prepare the followings:
 * __a unique ID__: say `awesome-paper` and it is published in `yyyy`. This ID is used everywhere to grab information for rendering the website.
 * __a `.md` file__ (see below) that will be uploaded to `_posts` : you __must__ name it `yyyy-mm-dd-awesome-paper.md` The month and date aren't important. You can use any values.
 * __the paper PDF__ that will be uploaded to `assets/papers/`: you __must__ name it `yyyy-awesome-paper.pdf`
-* __a teaser/banner__ that will be uploaded to `assets/images/`: you __must__ name it `paper-banner-awesome-paper.png|jpg|jpeg|gif|bmp`. The width should be less than 1200px.
-* __a thumbnail__ that will be uploaded to `assets/images/`: you __must__ name it `paper-thumb-awesome-paper.png|jpg|jpeg|gif|bmp`. The width should be less than 1200px, and we suggest to use a 5:3 aspect ratio to align with other images. (Fumeng: I hope you can follow this rule such that we don't have to run resize scripts for you!)
+* __a teaser/banner__ that will be uploaded to `assets/images/`: you __must__ name it `paper-banner-awesome-paper.png|jpg|jpeg|gif|bmp`. The width should be less than 1200px. On mobile devices, the image will be scaled to a width less than 400px, so try to avoid using too small details or letters.
+* __a thumbnail__ that will be uploaded to `assets/images/`: you __must__ name it `paper-thumb-awesome-paper.png|jpg|jpeg|gif|bmp`. We strongly suggest to use a 5:3 aspect ratio and width less than 300px to best appear in the website (ideal size: 200px by 120px).
+<!-- The width should be less than 1200px, and we suggest to use a 5:3 aspect ratio to align with other images. (Fumeng: I hope you can follow this rule such that we don't have to run resize scripts for you!) -->
 * authors, abstract, venue, year, awards
 * other links you want to show
 
@@ -82,7 +83,7 @@ Now,
 
 You are all set.
 
-### Add a new [person](https://mucollective.github.io/mucollective.co/people) :frowning_person:
+### Add a new [person](https://mucollective.github.io/mucollective.co/people) :frowning_person
 
 You need to prepare the followings:
 
@@ -107,7 +108,7 @@ Explanation:
 * For a faculty/current student, you should provide their `name`, `role` (professor, phd student, post doc, etc), `department`, `school`, `image`, and website url (`link`).
 * For alumni, you should provide their `name`, current `position`, and website url (`link`).
 
-### Edit [research area](https://mucollective.github.io/mucollective.co/research) :mortar_board:
+### Edit [research area](https://mucollective.github.io/mucollective.co/research) :mortar_board
 
 You only need to edit `_data/research_areas.yml` file.
 
@@ -124,11 +125,11 @@ An example:
 Explanation:
 
 * __name__ is the name to show in the list
-* __category__  is the catergory, which will be used to match and grab papers. 
+* __category__  is the catergory, which will be used to match and grab papers.
 * __desc__ is the description.
 * __image__ is the list of related images to show (suggestion: upto 2). You can list images in the YAML list format.
 
-### Add or edit a [public release](https://mucollective.github.io/mucollective.co/public-release) :earth_americas:
+### Add or edit a [public release](https://mucollective.github.io/mucollective.co/public-release) :earth_americas
 
 You need to prepare the followings:
 
@@ -164,7 +165,7 @@ An example from `_data/software.yml`:
   description: ggdist is an R package that provides a flexible set of ggplot2 geoms and stats designed especially for visualizing distributions and uncertainty.
 ```
 
-### Add or edit a [talk](https://mucollective.github.io/mucollective.co/talks) :speech_balloon:
+### Add or edit a [talk](https://mucollective.github.io/mucollective.co/talks) :speech_balloon
 
 You only need to edit `_data/talk.yml` file.
 
@@ -188,10 +189,10 @@ Take a look on [this document for installing and configuring](https://docs.githu
 
 ### How to run it locally
 
-1. Install Ruby. [Guide](https://mac.install.guide/ruby/12.html) If you could not open the link, try Incognito/Privacy mode or Safari browser. The followings are an overview:   
+1. Install Ruby. [Guide](https://mac.install.guide/ruby/12.html) If you could not open the link, try Incognito/Privacy mode or Safari browser. The followings are an overview:
   a. `brew install ruby-install chruby`.  
   b. `ruby-install -V` At the end of installation, there are two lines `source /usr/local/...`.  
-  c. `open -e ~/.zshrc` and add the two lines from the above as well as `chruby ruby-3.1.2`  This is the version we are going to use.    
+  c. `open -e ~/.zshrc` and add the two lines from the above as well as `chruby ruby-3.1.2`  This is the version we are going to use.
   d. Restart your terminal and run `ruby-install ruby 3.1.2`.  
   e. It takes a few minutes and you confirm the version of ruby 3.1.2 by running `ruby -v`. If not, try to open a new Terminal.  
 2. Install Jekyll: `gem install jekyll` You might need to run this using `sudo`.
