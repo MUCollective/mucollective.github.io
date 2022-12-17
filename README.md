@@ -188,7 +188,7 @@ Take a look on [this document for installing and configuring](https://docs.githu
 
 ### How to run it locally
 
-1. Install Ruby. [Guide](https://mac.install.guide/ruby/12.html) If you could not open the link, try Incognito/Privacy mode or Safari browser. The followings are an overview:
+1. Install Ruby. [Guide](https://mac.install.guide/ruby/12.html) If you could not open the link, try Incognito/Privacy mode or Safari browser. The followings are an overview:   
   a. `brew install ruby-install chruby`.  
   b. `ruby-install -V` At the end of installation, there are two lines `source /usr/local/...`.  
   c. `open -e ~/.zshrc` and add the two lines from the above as well as `chruby ruby-3.1.2`  This is the version we are going to use.    
