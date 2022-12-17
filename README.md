@@ -31,7 +31,7 @@ You need to prepare the followings:
 * __a `.md` file__ (see below) that will be uploaded to `_posts` : you __must__ name it `yyyy-mm-dd-awesome-paper.md` The month and date aren't important. You can use any values.
 * __the paper PDF__ that will be uploaded to `assets/papers/`: you __must__ name it `yyyy-awesome-paper.pdf`
 * __a teaser/banner__ that will be uploaded to `assets/images/`: you __must__ name it `paper-banner-awesome-paper.png|jpg|jpeg|gif|bmp`. The width should be less than 1200px.
-* __a thumbnail__ that will be uploaded to `assets/images/`: you __must__ name it `paper-thumb-awesome-paper.png|jpg|jpeg|gif|bmp`. The width should be less than 1200px, and we suggest to use a 5:3 aspect ratio to align with other images. (Fumeng: I hope you can follow this rule to make other people's lif easier!)
+* __a thumbnail__ that will be uploaded to `assets/images/`: you __must__ name it `paper-thumb-awesome-paper.png|jpg|jpeg|gif|bmp`. The width should be less than 1200px, and we suggest to use a 5:3 aspect ratio to align with other images. (Fumeng: I hope you can follow this rule such that we don't have to run resize scripts for you!)
 * authors, abstract, venue, year, awards
 * other links you want to show
 
@@ -47,7 +47,7 @@ layout: paper
 category: paper 
 title:  "This is an awesome paper"
 authors: "Author 1, Author 2, Author 3"
-venue: "The Lucky Conference/Journal"
+venue: "The Lucky Conference/Journal"x
 thumb: "assets/images/paper-thumb-awesome-paper.png"
 banner: "assets/images/paper-banner-awesome-paper.png"
 caption: "The caption for the banner/teaser."
