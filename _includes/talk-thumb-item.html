@@ -3,7 +3,7 @@
     <span class="category">Talk</span>
     <h5>
       {% if include.url %}
-      <a href="{{ include.url | relative_url }}">{{ include.title }}</a>
+      <a href="{{ include.url | relative_url }}" target="_blank">{{ include.title }}</a>
       {% else %}
       {{ include.title }}
       {% endif %}
