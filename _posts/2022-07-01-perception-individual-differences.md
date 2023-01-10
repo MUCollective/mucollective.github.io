@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper vis-literacy
 title:  "The Risks of Ranking: Revisiting Graphical Perception to Model Individual Differences in Visualization Performance"
 authors: "Russell Davis, Xiaoying Pu, Yiren Ding, Brian D. Hall, Karen Bonilla, Mi Feng, Matthew Kay, Lane Harrison"
 venue: "IEEE Transactions on Visualization and Computer Graphics 2022"
