@@ -61,7 +61,7 @@ title: "Research"
           {% include talk-thumb-item.html
             title=item.title
             contributor=item.contributor
-            link=item.link
+            url=item.link
           %}
         {% endif %}
       {% endfor %}
