@@ -11,6 +11,7 @@ title: "Public Release"
   {% for item in site.data.software %}
     {% include software-item.html
       title=item.title
+      id=item.id
       contributor=item.contributor
       type=item.type
       description=item.description
@@ -27,6 +28,7 @@ title: "Public Release"
   {% for item in site.data.prototype %}
     {% include software-item.html
       title=item.title
+      id=item.id
       contributor=item.contributor
       type=item.type
       description=item.description

@@ -38,23 +38,25 @@ title: "Research"
       {% endfor %}
       {% for item in site.data.software %}
         {% if item.category contains topic.category %}
+          {% assign iurl = 'public-release#' | append: item.id %}
           {% include software-thumb-item.html
             title=item.title
-            id=item.id
             contributor=item.contributor
             type=item.type
             supplement=item.supplement
+            url=iurl
           %}
         {% endif %}
       {% endfor %}
       {% for item in site.data.prototype %}
         {% if item.category contains topic.category %}
+          {% assign iurl = 'public-release#' | append: item.id %}
           {% include software-thumb-item.html
             title=item.title
-            id=item.id
             contributor=item.contributor
             type=item.type
             supplement=item.supplement
+            url=iurl
           %}
         {% endif %}
       {% endfor %}
@@ -62,7 +64,6 @@ title: "Research"
         {% if item.category contains topic.category %}
           {% include talk-thumb-item.html
             title=item.title
-            id=item.id
             contributor=item.contributor
             url=item.link
           %}
