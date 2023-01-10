@@ -1,4 +1,5 @@
 - title: PGoG
+  id: pgog
   contributor: Xiaoying Pu, Matthew Kay
   type: R package
   category: uncertainty-gog
@@ -7,6 +8,7 @@
       link: https://github.com/mucollective/pgog
   description: This is an R package that accompanies our CHI 2020 paper, A Probabilistic Grammar of Graphics (PGoG). Here we implement the PGoG grammar as two ggplot2 geoms and show that PGoG can be compatible with an existing grammar of graphics-based system.
 - title: Cicero
+  id: cicero
   contributor: Hyeok Kim
   type: JS library
   supplement:

@@ -1,4 +1,5 @@
 - title: Multiverse
+  id: multiverse
   contributor: Abhraneel Sarma, Matthew Kay
   type: R package
   supplement: 
@@ -10,6 +11,7 @@
       link: https://cloud.r-project.org/web/packages/multiverse/index.html
   description: The goal of multiverse is to allow users to create a multitude of end-to-end analyses in a concise and easily interpretable manner. multiverse enables this by providing both an embedded Domain-Specific Language (DSL) as well as an API to interact with and extract results from a multiverse analysis, which can then be neatly wrapped within a larger analysis in R.
 - title: Posterior
+  id: posterior
   contributor: Matthew Kay
   type: R package
   supplement: 
@@ -21,6 +23,7 @@
       link: https://cloud.r-project.org/web/packages/posterior/index.html
   description: The posterior R package is intended to provide useful tools for both users and developers of packages for fitting Bayesian models or working with output from Bayesian models. 
 - title: tidybayes
+  id: tidybayes
   contributor: Matthew Kay
   type: R package
   category: uncertainty-gog
@@ -32,7 +35,8 @@
     - type: CRAN
       link: https://cran.r-project.org/web/packages/tidybayes/index.html
   description: tidybayes is an R package that aims to make it easy to integrate popular Bayesian modeling methods into a tidy data + ggplot workflow.
-- title: ggidst
+- title: ggdist
+  id: ggdist
   contributor: Matthew Kay
   type: R package
   supplement:
@@ -44,6 +48,7 @@
       link: https://cloud.r-project.org/web/packages/ggdist/index.html 
   description: ggdist is an R package that provides a flexible set of ggplot2 geoms and stats designed especially for visualizing distributions and uncertainty.
 - title: Plinko
+  id: plinko
   contributor: Matthew Kay
   type: R package
   supplement:
@@ -53,6 +58,7 @@
       link: https://github.com/mjskay/plinko/
   description: plinko is an R package for creating animated Plinko boards (as known as Galton boards, quincunxes, or bean machines). It helps determine Plinko board parameters and generates plausible paths through a Plinko board that result in a desired sample or set of quantiles, then renders the Plinko board as an animated GIF or video.
 - title: Atlas
+  id: atlas
   contributor: Yea-seul Kim
   type: Chrome plugin
   category: automation

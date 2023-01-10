@@ -40,6 +40,7 @@ title: "Research"
         {% if item.category contains topic.category %}
           {% include software-thumb-item.html
             title=item.title
+            id=item.id
             contributor=item.contributor
             type=item.type
             supplement=item.supplement
@@ -50,6 +51,7 @@ title: "Research"
         {% if item.category contains topic.category %}
           {% include software-thumb-item.html
             title=item.title
+            id=item.id
             contributor=item.contributor
             type=item.type
             supplement=item.supplement
@@ -60,6 +62,7 @@ title: "Research"
         {% if item.category contains topic.category %}
           {% include talk-thumb-item.html
             title=item.title
+            id=item.id
             contributor=item.contributor
             url=item.link
           %}

@@ -1,7 +1,13 @@
 <article class="post-thumb-item">
   <div class="post-thumb-content">
     <span class="category">Talk</span>
-    <h5><a href="{{ include.url | relative_url }}">{{ include.title }}</a></h5>
+    <h5>
+      {% if include.url %}
+      <a href="{{ include.url | relative_url }}">{{ include.title }}</a>
+      {% else %}
+      {{ include.title }}
+      {% endif %}
+    </h5>
     <span class="authors"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-people-fill"
         viewBox="0 0 16 16">
         <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
