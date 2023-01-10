@@ -30,3 +30,13 @@
   image:
     - "assets/images/research-image-automation-1.jpeg"
     - "assets/images/research-image-automation-2.png"
+
+- name: Visualization Literacy
+  category: vis-literacy
+  desc: "Visualizations are often used to communicate data-driven information and have a variety of audiences. The message viewers get can vary depending on other factors (e.g., individual differences in perception or prior knowledge). To create visualizations that can effectively communicate to its audience, it is crucial to gain a better understanding in its viewers' ability to interpret visualizations. A deeper understanding of visualization literacy can also provide insights in related fields such as education, psychology, and cognitive science. We are exploring the complexities of visualization literacy by studying how people interpret visualizations, analyzing what factors could contribute to this skill, understanding how it might be different for varying levels of expertise (e.g., experts, novices), investigating how this skill is acquired, identifying the different aspects involved in interpreting visual information (e.g., critical thinking), and developing assessments aimed to measure the ability to interpret visualizations. Our investigations contribute insights in developing more comprehensive understandings, measurements, and interventions to improve visualization literacy."
+  image:
+
+- name: Visualization Misinformation
+  category: vis-misinformation
+  desc: "Although visualizations are powerful instruments for communication, they can also become mediums used to exacerbate the spread of misinformation. Inappropriate representations of data can hinder the accuracy of the information consumed, which can lead to negative consequences such as poor data-driven decisions. Misleading visualizations can be the result of deliberate manipulations or careless constructions, and a better understanding of them is necessary to combat visualization misinformation, which is also applicable in fields such as journalism and public policy. We dive into the questions of whether viewers can identify misleading visualizations, what techniques can lead to such inaccurate representations of data, how these misrepresentations lead to misinterpretations, what skills are needed to effectively navigate around misinformation, and how these skills can be improved. By investigating (in)accurate data representations, we can gain a deeper and more comprehensive understanding of visualization misinformation, pave roads to avoid it, and build tools to confront it; all in an effort to cease the spread of and reduce people's susceptibility to misinformation."
+  image:
