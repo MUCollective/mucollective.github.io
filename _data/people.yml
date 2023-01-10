@@ -89,6 +89,11 @@ current:
     school: Northwestern University
     image: assets/images/people-mandi-cai.jpeg
     link: https://mandi-cai.com/
+  - name: Noah Shen
+    role: Master Student
+    department: Computer Science
+    school: Northwestern University
+    image: assets/images/people-noah-shen.jpeg
 
 alumni:
   - name: Xiaoying Pu
