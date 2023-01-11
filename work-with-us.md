@@ -13,7 +13,7 @@ If you have or are soon to graduate with a Ph.D. in computer science or a relate
 
 ### Prospective Ph.D. students
 
-Students who want to work with the lab can do so by applying to a Northwestern Ph.D. program.
+Students who want to work with the lab can do so by applying to a Northwestern Ph.D. program:
 
 [Computer Science](https://www.mccormick.northwestern.edu/computer-science/academics/graduate/phd/), or <br/>
 [Technology & Social Behavior](https://tsb.northwestern.edu/admissions/), a joint Ph.D. program between Computer Science and Communication.
@@ -24,7 +24,7 @@ We encourage applications from students with degrees in computer science and rel
 
 If you are unsure if you are qualified or have questions about working with the lab group, please get in touch.
 
-The admissions deadlines are: December 15 for Northwestern University's CS Division, and December 31 for Northwestern University's TSB program.
+For more information, please check the admission pages for [Computer Science](https://www.mccormick.northwestern.edu/computer-science/academics/graduate/admissions/) and [Technology & Social Behavior](https://tsb.northwestern.edu/admissions/).
 
 ### Existing undergraduates and Master’s students
 

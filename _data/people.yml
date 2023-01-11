@@ -19,11 +19,22 @@ current:
     school: Northwestern University
     image: assets/images/people-fumeng-yang.png
     link: http://www.fmyang.com/
+  - name: Brian Hall
+    role: PhD Student
+    department: School of Information
+    school: University of Michigan
+    image: assets/images/people-brian-hall.jpeg
   - name: Paula Kayongo
     role: PhD Student
     department: Computer Science
     school: Northwestern University
     image: assets/images/people-paula-kayongo.jpeg
+  - name: Dongping Zhang
+    role: PhD Student
+    department: Technology & Social Behavior
+    school: Northwestern University
+    image: assets/images/people-dongping-zhang.jpeg
+    link: https://www.dpzhang.com/
   - name: Abhraneel Sarma
     role: PhD Student
     department: Computer Science
@@ -42,23 +53,12 @@ current:
     school: Northwestern University
     image: assets/images/people-priyanka-nanayakkara.jpeg
     link: https://priyakalot.github.io/
-  - name: Brian Hall
-    role: PhD Student
-    department: School of Information
-    school: University of Michigan
-    image: assets/images/people-brian-hall.jpeg
   - name: Maryam Hedayati
     role: PhD Student
     department: Computer Science + Learning Sciences 
     school: Northwestern University
     image: assets/images/people-maryam-hedayati.jpeg
     link: https://www.linkedin.com/in/maryamhedayati/
-  - name: Dongping Zhang
-    role: PhD Student
-    department: Technology & Social Behavior
-    school: Northwestern University
-    image: assets/images/people-dongping-zhang.jpeg
-    link: https://www.dpzhang.com/
   - name: Charles Cui
     role: PhD Student
     department: Computer Science
@@ -95,7 +95,7 @@ current:
     image: assets/images/people-mandi-cai.jpeg
     link: https://mandi-cai.com/
   - name: Noah Shen
-    role: Master Student
+    role: Masters Student
     department: Computer Science
     school: Northwestern University
     image: assets/images/people-noah-shen.jpeg
