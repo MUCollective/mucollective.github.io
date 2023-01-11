@@ -65,6 +65,11 @@ current:
     school: Northwestern University
     image: assets/images/people-charles-cui.png
     link: https://yccui.github.io/
+  - name: Sheng Long
+    role: PhD Student
+    department: Computer Science
+    school: Northwestern University
+    image: assets/images/people-sheng-long.jpeg
   - name: Taewook Kim
     role: PhD Student
     department: Technology & Social Behavior
