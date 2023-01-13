@@ -12,7 +12,9 @@ Fumeng Yang - writing documentation & nudging style :woman_juggling:
 
 ## How to update (for everyone)
 
-You should find the information you need to prepare from this page and send them to the master person in the Slack channel #logo-and-website. The 2022-23 master is __Lily Ge__; __Hyeok Kim__  and __Fumeng Yang__ also have knowledge about this if you have any questions.
+First, you should find the information you need to prepare from this page (looking for `[for everyone]` notation).
+
+Second, you send them to the master person in the Slack channel `#logo-and-website` (e.g., @) or via DM. The 2022-23 master is __Lily Ge__; __Hyeok Kim__  and __Fumeng Yang__ also have knowledge about this if you have any questions.
 
 ## How to update (for the master person)
 
@@ -29,7 +31,7 @@ The two folders you have to pay attention to are:
 * `_posts`: This folder provides information for papers. You need to add a new `*.md` file when you want to add a paper.
 * `assets`: This folder provides the actual thumbnails and PDFs.
 
-☞ You need to prepare the followings:
+`[for everyone]` To add a paper, you need to prepare the followings:
 
 * __a unique ID__: say `awesome-paper` and it is published in `yyyy`. This ID is used everywhere to grab information for rendering the website.
 * __a `.md` file__ (see below) that will be uploaded to `_posts` : you __must__ name it `yyyy-mm-dd-awesome-paper.md` The month and date aren't important. You can use any values.
@@ -38,13 +40,14 @@ The two folders you have to pay attention to are:
 * __a thumbnail__ that will be uploaded to `assets/images/`: you __must__ name it `paper-thumb-awesome-paper.png|jpg|jpeg|gif|bmp`. We strongly suggest to use a 5:3 aspect ratio and width less than 300px to best appear in the website (ideal size: 200px by 120px).
 <!-- The width should be less than 1200px, and we suggest to use a 5:3 aspect ratio to align with other images. (Fumeng: I hope you can follow this rule such that we don't have to run resize scripts for you!) -->
 * authors, abstract, venue, year, awards
-* other links you want to show
+* other links you want to show and their names
 
 #### The `.md` file
 
 This file __must__ be called: `yyyy-mm-dd-awesome-paper.md` It gives entries to render a paper. Again, you must specify year like `2022-12-01-awesome-paper.md` but months and days are not important.
 
-A toy example is below. You can copy it as your template file.
+
+`[for everyone]` A toy example is below. You can copy it as your template file. 
 
 ```{yaml}
 ---
@@ -89,13 +92,13 @@ You are all set.
 
 ### Add a new [person](https://mucollective.github.io/mucollective.co/people) :frowning_person
 
-You need to prepare the followings:
+`[for everyone]` You need to prepare the followings:
 
 * A 1x1 headshot named `people-first-last.png|jpg|jpeg|gif|bmp`. (Fumeng: I don't know if you want to use a gif, but it is possible?) You must follow the naming style `people-...`.
 
 You only have to __edit__ `_data/people.yml` file and upload the image to `assets/images`.
 
-An example:
+`[for everyone]` An example:
 
 ```{yaml}
   - name: Jessica Hullman
@@ -135,9 +138,10 @@ Explanation:
 
 ### Add or edit a [public release](https://mucollective.github.io/mucollective.co/public-release) :earth_americas
 
-You need to prepare the followings:
+`[for everyone]` You need to prepare the followings:
 
 * URLs to your release.
+* The categories of your releases: software, prototype, or something else.
 
 There are two files `_data/prototype.yml` and `_data/software.yml`. Our suggestion is that if it is a concrete thing, then it belongs to `software`. The entry should be very much self-explanatory.
 
