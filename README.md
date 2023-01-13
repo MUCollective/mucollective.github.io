@@ -12,7 +12,11 @@ Fumeng Yang - writing documentation & nudging style :woman_juggling:
 
 ## How to update (for everyone)
 
-Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you are not a master person, you should not need a local setup. The 2022-23 master is __Lily Ge__; __Hyeok Kim__  and __Fumeng Yang__ also have knowledge about this if you have any questions.
+You should find the information you need to prepare from this page and send them to the master person in the Slack channel #logo-and-website. The 2022-23 master is __Lily Ge__; __Hyeok Kim__  and __Fumeng Yang__ also have knowledge about this if you have any questions.
+
+## How to update (for the master person)
+
+Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you are not a developer, you should not need a local setup. The 2022-23 master is __Lily Ge__; __Hyeok Kim__  and __Fumeng Yang__ also have knowledge about this if you have any questions.
 
 In sum, you only need to touch `_data`, `_posts`, and `assets`. __Hyeok: "If you are touching anything else, it means you are doing something wrong."__
 
@@ -25,7 +29,7 @@ The two folders you have to pay attention to are:
 * `_posts`: This folder provides information for papers. You need to add a new `*.md` file when you want to add a paper.
 * `assets`: This folder provides the actual thumbnails and PDFs.
 
-You need to prepare the followings:
+☞ You need to prepare the followings:
 
 * __a unique ID__: say `awesome-paper` and it is published in `yyyy`. This ID is used everywhere to grab information for rendering the website.
 * __a `.md` file__ (see below) that will be uploaded to `_posts` : you __must__ name it `yyyy-mm-dd-awesome-paper.md` The month and date aren't important. You can use any values.
