@@ -47,7 +47,7 @@ The two folders you have to pay attention to are:
 This file __must__ be called: `yyyy-mm-dd-awesome-paper.md` It gives entries to render a paper. Again, you must specify year like `2022-12-01-awesome-paper.md` but months and days are not important.
 
 
-`[for everyone]` A toy example is below. You can copy it as your template file. 
+A toy example is below. You can copy it as your template file. (`[for everyone]` Here, you can get a sense of what information you need to prepare, but the master person will prepare the `.md`.)
 
 ```{yaml}
 ---
@@ -141,7 +141,7 @@ Explanation:
 `[for everyone]` You need to prepare the followings:
 
 * URLs to your release.
-* The categories of your releases: software, prototype, or something else.
+* The categories of your releases: software, prototype, or something else. Examples are listed below.
 
 There are two files `_data/prototype.yml` and `_data/software.yml`. Our suggestion is that if it is a concrete thing, then it belongs to `software`. The entry should be very much self-explanatory.
 
