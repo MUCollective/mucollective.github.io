@@ -1,3 +1,104 @@
+- title: Using Theories of Decision-Making Under Uncertainty to Improve Data Visualization
+  contributor: Jessica Hullman
+  year: 2022
+  venue: Simons Institute
+  link: https://www.youtube.com/watch?v=IhGydZwUKc8
+  type: invited
+
+- title: "The worst of both worlds: a comparative analysis of errors in learning from data in psychology and machine learning"
+  year: 2022
+  contributor: Jessica Hullman
+  venue: Reproducibility workshop at Princeton University
+  link: https://youtu.be/7Bxcz7Z_tY0
+  type: invited
+
+- title: An investigation into user expectations for differential privacy
+  year: 2022
+  contributor: Jessica Hullman with Rachel Cummings and Melissa Chase
+  venue: Microsoft Research Summit
+  link: https://www.microsoft.com/en-us/research/video/research-talks-an-investigation-into-user-expectations-for-differential-privacy/
+  type: invited
+
+- title: Detecting, Tracking, Mitigating, and Preventing Wildfires and Improving Science Communicatio
+  year: 2022
+  contributor: Jessica Hullman
+  venue: President’s Council of Advisors on Science and Technology (PCAST) 
+  link: https://www.youtube.com/watch?v=Sa08_QrUsEc
+  type: inivited
+
+- title: Visualizations as Model Checks
+  year: 2022
+  contributor: Jessica Hullman
+  venue: "Marvin Zelen Symposium: Data Visualization"
+  link: https://www.youtube.com/watch?v=hbVALpdQsvw&list=PLSRWKxVvK3_OdwdZUSqBusCMv98L_f5qq&index=3
+  type: invited
+
+- title: Visualization and Statistics
+  year: 2022
+  contributor: Jessica Hullman with Andrew Gelman
+  venue: Data Stories (Podcast)
+  link: https://datastori.es/167-visualization-and-statistics-with-andrew-gelman-and-jessica-hullman/
+  type: cast
+
+- title: A biased tour of the uncertainty visualization zoo
+  year: 2021
+  contributor: Matthew Kay
+  venue: Invited talk at Lawrence Livermore National Laboratory
+  link: https://www.youtube.com/watch?v=eyLxh_YY3Hw
+  type: invited
+
+- title: Uncertainty visualization with tidybayes and ggdist
+  year: 2021
+  contributor: Matthew Kay
+  venue: Bayes@Lund (Webinar)
+  link: https://www.youtube.com/watch?v=EtrmxMX8zWw
+  type: invited
+
+- title: Uncertainty visualization as a moral imperative
+  year: 2021
+  contributor: Matthew Kay
+  venue: Invited talk at BostonCHI
+  link: https://www.youtube.com/watch?v=mfQ3QVyw4N0
+  type: invited
+
+- title: Uncertainty visualization and Bayes
+  year: 2020
+  contributor: Matthew Kay
+  venue: Generable (Webcast)
+  link: https://www.youtube.com/watch?v=PqCaljvE89k
+  type: cast
+
+- title: Building effective uncertainty visualizations with tidybayes and ggdist
+  year: 2020
+  contributor: Matthew Kay
+  venue: StanCon
+  link: https://www.youtube.com/watch?v=wbzfqh_3LyM
+  category: bayesian-perspective
+  type: invited
+
+- title: A biased tour of the uncertainty visualization zoo
+  year: 2018
+  contributor: Matthew Kay
+  venue: Keynote at Tapestry Conference 
+  link: https://www.youtube.com/watch?v=E1kSnWvqCw0
+  category: discrete-outcome
+  type: conference-keynotes
+
+- title: Tidy data and Bayesian analysis make uncertainty visualization fun
+  year: 2018
+  contributor: Matthew Kay
+  venue: Keynote at OpenVis Conference
+  link: https://www.youtube.com/watch?v=vqzO-9LSoG4
+  type: conference-keynotes
+
+- title: The Visual Uncertainty Experience
+  year: 2016
+  contributor: Jessica Hullman
+  venue: Keynote at OpenVis Conference
+  link: https://www.youtube.com/watch?v=pTVAn4oLvbc
+  category: discrete-outcome
+  type: conference-keynotes
+
 # - title: Theories of inference for visualization interactions
 #   year: 2021
 #   contributor: Jessica Hullman
@@ -138,12 +239,6 @@
 #   contributor: Jessica Hullman
 #   venue: Microsoft Research (New York City)
 
-- title: The Visual Uncertainty Experience
-  year: 2016
-  contributor: Jessica Hullman
-  venue: OpenVis
-  link: https://www.youtube.com/watch?v=pTVAn4oLvbc
-  category: discrete-outcome
 
 # - title: Data-Driven Storytelling
 #   year: 2016
@@ -216,17 +311,17 @@
 #   contributor: Matthew Kay
 #   venue: Multiverse workshop at SIPS (Society for the Improvement of Psychological Science)
 
-- title: A biased tour of the uncertainty visualization zoo
-  year: 2021
-  contributor: Matthew Kay
-  venue: Lawrence Livermore National Laboratory
-  link: https://www.youtube.com/watch?v=eyLxh_YY3Hw
+# - title: A biased tour of the uncertainty visualization zoo
+#   year: 2021
+#   contributor: Matthew Kay
+#   venue: Lawrence Livermore National Laboratory
+#   link: https://www.youtube.com/watch?v=eyLxh_YY3Hw
 
-- title: Uncertainty visualization with tidybayes and ggdist
-  year: 2021
-  contributor: Matthew Kay
-  venue: Bayes@Lund
-  link: https://www.youtube.com/watch?v=EtrmxMX8zWw
+# - title: Uncertainty visualization with tidybayes and ggdist
+#   year: 2021
+#   contributor: Matthew Kay
+#   venue: Bayes@Lund
+#   link: https://www.youtube.com/watch?v=EtrmxMX8zWw
 
 # - title: Strategies for effective uncertainty visualization
 #   year: 2021
@@ -238,24 +333,24 @@
 #   contributor: Matthew Kay
 #   venue: Rostock Retreat, Max Plank Insitute for Demographic Research
 
-- title: Uncertainty visualization as a moral imperative
-  year: 2021
-  contributor: Matthew Kay
-  venue: BostonCHI
-  link: https://www.youtube.com/watch?v=mfQ3QVyw4N0
+# - title: Uncertainty visualization as a moral imperative
+#   year: 2021
+#   contributor: Matthew Kay
+#   venue: BostonCHI
+#   link: https://www.youtube.com/watch?v=mfQ3QVyw4N0
 
-- title: Uncertainty visualization and Bayes
-  year: 2020
-  contributor: Matthew Kay
-  venue: Generable
-  link: https://www.youtube.com/watch?v=PqCaljvE89k
+# - title: Uncertainty visualization and Bayes
+#   year: 2020
+#   contributor: Matthew Kay
+#   venue: Generable
+#   link: https://www.youtube.com/watch?v=PqCaljvE89k
 
-- title: Building effective uncertainty visualizations with tidybayes and ggdist
-  year: 2020
-  contributor: Matthew Kay
-  venue: StanCon 2020
-  link: https://www.youtube.com/watch?v=wbzfqh_3LyM
-  category: bayesian-perspective
+# - title: Building effective uncertainty visualizations with tidybayes and ggdist
+#   year: 2020
+#   contributor: Matthew Kay
+#   venue: StanCon 2020
+#   link: https://www.youtube.com/watch?v=wbzfqh_3LyM
+#   category: bayesian-perspective
 
 # - title: Uncertainty visualization as a moral imperative
 #   year: 2019
@@ -267,18 +362,18 @@
 #   contributor: Matthew Kay
 #   venue: Ann Arbor R Users Group
 
-- title: A biased tour of the uncertainty visualization zoo
-  year: 2018
-  contributor: Matthew Kay
-  venue: Tapestry 2018
-  link: https://www.youtube.com/watch?v=E1kSnWvqCw0
-  category: discrete-outcome
+# - title: A biased tour of the uncertainty visualization zoo
+#   year: 2018
+#   contributor: Matthew Kay
+#   venue: Tapestry 2018
+#   link: https://www.youtube.com/watch?v=E1kSnWvqCw0
+#   category: discrete-outcome
 
-- title: Tidy data and Bayesian analysis make uncertainty visualization fun
-  year: 2018
-  contributor: Matthew Kay
-  venue: OpenVisConf 2018
-  link: https://www.youtube.com/watch?v=vqzO-9LSoG4
+# - title: Tidy data and Bayesian analysis make uncertainty visualization fun
+#   year: 2018
+#   contributor: Matthew Kay
+#   venue: OpenVisConf 2018
+#   link: https://www.youtube.com/watch?v=vqzO-9LSoG4
 
 # - title: Uncertainty visualization for scientific communication
 #   year: 2018
