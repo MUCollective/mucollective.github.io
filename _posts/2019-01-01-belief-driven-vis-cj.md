@@ -17,3 +17,20 @@ additionals:
 
 <!-- abstract -->
 Journalists often use visualizations and other interactive representations to support stories they convey in articles. While readers bring their prior beliefs to interpret these representations, typical models of designing them do not consider the readers’ beliefs. We propose “Belief-driven data journalism” as a framework for integrating readers’ beliefs in designing and supporting interaction with data-driven articles. We present four case studies to illustrate how belief-driven data journalism can serve journalistic goals and reflect on design considerations.We describe an authoring tool that we are developing to help journalists and others with varying technical expertise create belief-driven data journalism pieces.
+
+
+<h3><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+</svg> Citation</h3>
+<div class="bibtex">
+<!-- bibtex -->
+<h4>BibTeX</h4>
+<pre>
+@article{belief-driven-vis-cj-2019,
+  title={Belief-driven data journalism},
+  author={Nguyen, Francis},
+  journal={Computation + Journalism},
+  year={2019}
+}
+</pre>
+</div>
