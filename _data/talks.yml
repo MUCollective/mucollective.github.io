@@ -26,7 +26,7 @@
   link: https://www.microsoft.com/en-us/research/video/research-talks-an-investigation-into-user-expectations-for-differential-privacy/
   type: invited
 
-- title: Detecting, Tracking, Mitigating, and Preventing Wildfires and Improving Science Communicatio
+- title: Detecting, Tracking, Mitigating, and Preventing Wildfires and Improving Science Communication
   year: 2022
   contributor: Jessica Hullman
   venue: Invited talk at President’s Council of Advisors on Science and Technology (PCAST) 
@@ -40,13 +40,6 @@
   link: https://www.youtube.com/watch?v=hbVALpdQsvw&list=PLSRWKxVvK3_OdwdZUSqBusCMv98L_f5qq&index=3
   type: invited
 
-- title: Visualization and Statistics
-  year: 2022
-  contributor: Jessica Hullman with Andrew Gelman
-  venue: Data Stories (Podcast)
-  link: https://datastori.es/167-visualization-and-statistics-with-andrew-gelman-and-jessica-hullman/
-  type: cast
-
 - title: Uncertainty Visualization & Usable Stats
   year: 2022
   contributor: Matthew Kay
@@ -54,19 +47,19 @@
   link: https://learnbayesstats.com/episode/66-uncertainty-visualization-usable-stats-matthew-kay/
   type: cast
 
-- title: Theories of Inference for Visual Analysis
-  year: 2021
-  contributor: Jessica Hullman
-  venue: Invited talk at HDSI Seminar Series
-  link: https://www.youtube.com/watch?v=6szX0xylH9c
+- title: Visualization and Statistics
+  year: 2022
+  contributor: Jessica Hullman with Andrew Gelman
+  venue: Data Stories (Podcast)
+  link: https://datastori.es/167-visualization-and-statistics-with-andrew-gelman-and-jessica-hullman/
   type: cast
 
-- title: A biased tour of the uncertainty visualization zoo
-  year: 2021
-  contributor: Matthew Kay
-  venue: Invited talk at Lawrence Livermore National Laboratory
-  link: https://www.youtube.com/watch?v=eyLxh_YY3Hw
-  type: invited
+# - title: Theories of Inference for Visual Analysis
+#   year: 2021
+#   contributor: Jessica Hullman
+#   venue: Invited talk at HDSI Seminar Series
+#   link: https://www.youtube.com/watch?v=6szX0xylH9c
+#   type: cast
 
 - title: Theories of Inference for Data Interactions
   year: 2021
