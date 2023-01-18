@@ -111,17 +111,20 @@ alumni:
   - name: Alex Kale
     position: Faculty at University of Chicago
     link: https://people.cs.uchicago.edu/~kalea/
-  - name: Emily Qiao
-    position: MP Biomedicals
-  - name: Emily Wall
-    position: Faculty at Emory University
-    link: https://emilywall.github.io/
   - name: Yea-Seul Kim
     position: Faculty at University of Wisconsin, Madison
     link: https://students.washington.edu/yeaseul1/
+  - name: Alireza Karduni
+    position: Computational social scientist / Design Lead at IDEO
+    link: https://www.karduni.com/
+  - name: Emily Wall
+    position: Faculty at Emory University
+    link: https://emilywall.github.io/
   - name: Lace Padilla
     position: Faculty at UC Merced
     link: http://space.ucmerced.edu/
+  - name: Emily Qiao
+    position: MP Biomedicals
   - name: Francis Nguyen
     position: PhD student at University of British Columbia
     link: https://fmnguyen.com/
