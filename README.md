@@ -71,6 +71,25 @@ additionals:
 
 <!-- abstract -->
 This is our awesome paper published at the Lucky Conference. 
+
+<h3><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+</svg> Citation</h3>
+<div class="bibtex">
+<!-- bibtex -->
+<h4>Bibtex</h4>
+<pre>
+@article{paper-id-year,
+  ...
+}
+</pre>
+</div>
+
+<div class="apa">
+<!-- apa -->
+<h4>APA</h4>
+<p>APA FORMAT STRING.</p>
+</div>
 ```
 
 Explanation:
@@ -81,6 +100,9 @@ Explanation:
 * (optional) __bestPaper__ and __honorable__ - true or false. You can also skip it.
 * (optional) __github__ and __supplementary__ - You can also skip it.
 * (optional) __additionals__ - additional links and a name to show. You can also skip it.
+* To get citation: access the original publisher's website to get the Bibtex (strongly recommended) and APA format (optional).
+  - As long as you have DOI, details other than authors, year, title, venue are not required.
+  - For Bibtex, use [this tool](https://flamingtempura.github.io/bibtex-tidy/index.html) to standardize.
 
 Now,
 

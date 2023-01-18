@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Public Release"
+title: "Software and Demo"
 ---
 
 <div class="main-section-wrap">

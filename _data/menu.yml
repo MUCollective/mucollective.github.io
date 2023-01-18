@@ -2,12 +2,12 @@
   path: index
 - name: People
   path: people
-- name: Research
+- name: Research area
   path: research
 - name: Publications
   path: publications
-- name: Public Release
-  path: public-release
+- name: Software
+  path: software
 - name: Talks
   path: talks
 - name: Work with us

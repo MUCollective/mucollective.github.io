@@ -1,6 +1,6 @@
 ---
 layout: paper
-category: paper
+category: paper responsive-visualization
 title:  "Design Patterns and Trade-Offs in Responsive Visualization for Communication"
 authors: "Hyeok Kim, Dominik Moritz, Jessica Hullman"
 venue: "Computer Graphics Forum (Proc. EUROVIS 2021)"

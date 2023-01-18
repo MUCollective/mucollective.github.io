@@ -1,4 +1,9 @@
-<article class="paper-list-item">
+<article class="paper-list-item"
+  data-title="{{include.title}}"
+  data-authors="{{include.authors}}"
+  data-category="{{include.category}}"
+  data-year="{{include.year}}"
+>
   <div class="paper-list-image">
     <img src="{{ include.thumb | relative_url }}" alt="{{include.title}} thumbnail" />
   </div>
