@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Research"
+title: "Research areas"
 ---
 
 {% for topic in site.data.research_areas %}

@@ -2,7 +2,7 @@
   path: index
 - name: People
   path: people
-- name: Research area
+- name: Research areas
   path: research
 - name: Publications
   path: publications
