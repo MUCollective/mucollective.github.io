@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Talks"
+title: "Selected Talks"
 ---
 
 {% assign data = site.data.talks %}
