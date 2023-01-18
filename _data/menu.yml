@@ -1,7 +1,5 @@
 - name: Home
   path: index
-- name: People
-  path: people
 - name: Research areas
   path: research
 - name: Publications
@@ -10,5 +8,7 @@
   path: software
 - name: Talks
   path: talks
+- name: People
+  path: people
 - name: Work with us
   path: work-with-us
