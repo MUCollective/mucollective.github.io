@@ -231,10 +231,11 @@ section.paper-header {
     margin-top: 0;
   }
 
-  pre {
+  pre, p.citation {
     max-width: 700px;
     line-break: break-all;
     white-space: pre-wrap;
+    color: #999999;
   }
 }
 

@@ -12,13 +12,15 @@ faculty:
     image: assets/images/people-matthew-kay.jpeg
     link: http://www.mjskay.com/
 
-current:
+current_postdoc:
   - name: Fumeng Yang
     role: Post Doc Researcher
     department: Computer Science
     school: Northwestern University
     image: assets/images/people-fumeng-yang.png
     link: http://www.fmyang.com/
+
+current_phd:
   - name: Brian Hall
     role: PhD Student
     department: School of Information
@@ -94,6 +96,8 @@ current:
     school: Northwestern University
     image: assets/images/people-mandi-cai.jpeg
     link: https://mandi-cai.com/
+
+current_masters:
   - name: Noah Shen
     role: Masters Student
     department: Computer Science

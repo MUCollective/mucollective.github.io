@@ -22,10 +22,44 @@ title: "People"
 
 <div class="main-section-wrap">
   <div class="title-wrap">
-    <h3>Post Docs and Graduate Students</h3>
+    <h3>Post Docs</h3>
   </div>
   <section class="people-grid">
-  {% for person in site.data.people.current %}
+  {% for person in site.data.people.current_postdoc %}
+    {% include people-item.html
+      name=person.name
+      role=person.role
+      department=person.department
+      school=person.school
+      image=person.image
+      link=person.link %}
+  {% endfor %}
+  </section>
+</div>
+
+<div class="main-section-wrap">
+  <div class="title-wrap">
+    <h3>PhD Students</h3>
+  </div>
+  <section class="people-grid">
+  {% for person in site.data.people.current_phd %}
+    {% include people-item.html
+      name=person.name
+      role=person.role
+      department=person.department
+      school=person.school
+      image=person.image
+      link=person.link %}
+  {% endfor %}
+  </section>
+</div>
+
+<div class="main-section-wrap">
+  <div class="title-wrap">
+    <h3>Masters students</h3>
+  </div>
+  <section class="people-grid">
+  {% for person in site.data.people.current_masters %}
     {% include people-item.html
       name=person.name
       role=person.role
