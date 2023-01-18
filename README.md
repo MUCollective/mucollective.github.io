@@ -22,9 +22,9 @@ Basically, we keep everything (images, pdf, metadata, etc.) on Github. If you ar
 
 In sum, you only need to touch `_data`, `_posts`, and `assets`. __Hyeok: "If you are touching anything else, it means you are doing something wrong."__
 
-After your edits, wait for a few minutes and check out [Mu website](https://mucollective.github.io/mucollective.co/) and you should be able to see the updates.
+After your edits, wait for a few minutes and check out [Mu website](https://mucollective.github.io/) and you should be able to see the updates.
 
-### Add a [paper](https://mucollective.github.io/mucollective.co/publications) :page_facing_up
+### Add a [paper](https://mucollective.github.io/publications) :page_facing_up
 
 The two folders you have to pay attention to are:
 
@@ -112,7 +112,7 @@ Now,
 
 You are all set.
 
-### Add a new [person](https://mucollective.github.io/mucollective.co/people) :frowning_person
+### Add a new [person](https://mucollective.github.io/people) :frowning_person
 
 `[for everyone]` You need to prepare the followings:
 
@@ -137,7 +137,7 @@ Explanation:
 * For a faculty/current student, you should provide their `name`, `role` (professor, phd student, post doc, etc), `department`, `school`, `image`, and website url (`link`).
 * For alumni, you should provide their `name`, current `position`, and website url (`link`).
 
-### Edit [research area](https://mucollective.github.io/mucollective.co/research) :mortar_board
+### Edit [research area](https://mucollective.github.io/research) :mortar_board
 
 You only need to edit `_data/research_areas.yml` file.
 
@@ -158,7 +158,7 @@ Explanation:
 * __desc__ is the description.
 * __image__ is the list of related images to show (suggestion: upto 2). You can list images in the YAML list format.
 
-### Add or edit a [public release](https://mucollective.github.io/mucollective.co/public-release) :earth_americas
+### Add or edit a [public release](https://mucollective.github.io/public-release) :earth_americas
 
 `[for everyone]` You need to prepare the followings:
 
@@ -195,7 +195,7 @@ An example from `_data/software.yml`:
   description: ggdist is an R package that provides a flexible set of ggplot2 geoms and stats designed especially for visualizing distributions and uncertainty.
 ```
 
-### Add or edit a [talk](https://mucollective.github.io/mucollective.co/talks) :speech_balloon
+### Add or edit a [talk](https://mucollective.github.io/talks) :speech_balloon
 
 You only need to edit `_data/talk.yml` file.
 

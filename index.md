@@ -39,7 +39,7 @@ title: "Home"
 <section class="main-section-wrap">
   <div class="title-wrap">
     <h3>Recent Papers</h3>
-    <a href="/mucollective.co/publications">See all</a>
+    <a href="/publications">See all</a>
   </div>
   {% for post in site.posts | limit: 10 %}
     {% if post.category contains 'paper' %}
