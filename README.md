@@ -12,7 +12,7 @@ Fumeng Yang - writing documentation & nudging style :woman_juggling:
 
 ## How to update (for everyone)
 
-First, you should find the information you need to prepare from this page (looking for `[for everyone]` notation).
+First, you should find the information you need to prepare on this page (looking for `[for everyone]` notation).
 
 Second, you send them to the master person in the Slack channel `#logo-and-website` (e.g., @) or via DM. The 2022-23 master is __Lily Ge__; __Hyeok Kim__  and __Fumeng Yang__ also have knowledge about this if you have any questions.
 
@@ -34,7 +34,7 @@ The two folders you have to pay attention to are:
 `[for everyone]` To add a paper, you need to prepare the followings:
 
 * __a unique ID__: say `awesome-paper` and it is published in `yyyy`. This ID is used everywhere to grab information for rendering the website.
-* __a `.md` file__ (see below) that will be uploaded to `_posts` : you __must__ name it `yyyy-mm-dd-awesome-paper.md` The month and date aren't important. You can use any values.
+* __a `.md` file__ (see below) that will be uploaded to `_posts` : you __must__ name it `yyyy-mm-dd-awesome-paper.md` The month and date aren't important. You can use any values. The master person prepares this file. 
 * __the paper PDF__ that will be uploaded to `assets/papers/`: you __must__ name it `yyyy-awesome-paper.pdf`
 * __a teaser/banner__ that will be uploaded to `assets/images/`: you __must__ name it `paper-banner-awesome-paper.png|jpg|jpeg|gif|bmp`. The width should be less than 1200px. On mobile devices, the image will be scaled to a width less than 400px, so try to avoid using too small details or letters.
 * __a thumbnail__ that will be uploaded to `assets/images/`: you __must__ name it `paper-thumb-awesome-paper.png|jpg|jpeg|gif|bmp`. We strongly suggest to use a 5:3 aspect ratio and width less than 300px to best appear in the website (ideal size: 200px by 120px).
@@ -44,7 +44,7 @@ The two folders you have to pay attention to are:
 
 #### The `.md` file
 
-This file __must__ be called: `yyyy-mm-dd-awesome-paper.md` It gives entries to render a paper. Again, you must specify year like `2022-12-01-awesome-paper.md` but months and days are not important.
+This file __must__ be called `yyyy-mm-dd-awesome-paper.md` It provides entries to render a paper. Again, you must specify year like `2022-12-01-awesome-paper.md` but months and days are not important.
 
 
 A toy example is below. You can copy it as your template file. (`[for everyone]` Here, you can get a sense of what information you need to prepare, but the master person will prepare the `.md`.)
