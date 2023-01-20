@@ -19,26 +19,25 @@
   <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","description":"MU Collective is a research lab in Northwestern University.","headline":"MU Collective","name":"MU Collective","url":"http://mucollective.co/"}</script>
 
-  <link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}">
-  <link rel="shortcut icon" type="image/png" href="{{ "assets/images/favicon.png" | relative_url }}">
+  <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
+  <link rel="shortcut icon" type="image/png" href="{{ 'assets/images/favicon.png' | relative_url }}">
 </head>
 
 <body>
-  <div class="container home-sections">
-    <header>
-      <h1 class="title">
-        <div class="home-logo">
-          <img src="{{ "assets/images/muLogoLight.png" | relative_url }}">
-        </div>
-        Midwest <br/>Uncertainty <br/>Collective
-      </h1>
-      {% include nav.html %}
-    </header>
-    <main>
-      {{ content }}
-      {% include footer.html %}
-    </main>
-  </div>
+  {% include header.html %}
+
+  <section class="home-display">
+    <div class="container">
+      {% for text in site.data.home_text %}
+      <p>{{text}}</p>
+      {% endfor %}
+    </div>
+  </section>
+  <main class="container">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+
 </body>
 
 </html>

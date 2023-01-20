@@ -3,6 +3,11 @@
   justify-content: space-between;
   margin-bottom: 1.5rem;
 
+  @media screen and (max-width: $sm) {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
   .paper-list-image {
     border: 1px solid #dddddd;
     border-radius: 0.25rem;
@@ -30,8 +35,9 @@
     }
 
     @media screen and (max-width: $sm) {
-      width: 125px;
-      height: 75px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 0.75rem;
     }
 
     img {
@@ -62,7 +68,7 @@
     }
 
     @media screen and (max-width: $sm) {
-      width: calc(100% - 125px - 0.5rem);
+      width: 100%;
     }
 
     h4 {
@@ -84,7 +90,8 @@
     }
 
     span.authors {
-      font-size: 1rem;
+      font-size: 0.85rem;
+      color: #666666;
     }
 
     span.venue {
@@ -102,6 +109,7 @@
       }
     }
   }
+
 }
 
 h3.paper-year-title {

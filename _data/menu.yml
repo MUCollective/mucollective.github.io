@@ -1,7 +1,7 @@
-- name: Home
-  path: index
-- name: Research areas
-  path: research
+# - name: Home
+#   path: index
+# - name: Research areas
+#   path: research
 - name: Publications
   path: publications
 - name: Software

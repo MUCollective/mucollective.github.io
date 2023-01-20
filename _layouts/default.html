@@ -19,14 +19,21 @@
   <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","description":"MU Collective is a research lab in Northwestern University.","headline":"MU Collective","name":"MU Collective","url":"http://mucollective.co/"}</script>
 
-  <link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}">
-  <link rel="shortcut icon" type="image/png" href="{{ "assets/images/favicon.png" | relative_url }}">
+  <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
+  <link rel="shortcut icon" type="image/png" href="{{ 'assets/images/favicon.png' | relative_url }}">
 </head>
 
 <body>
   {% include header.html %}
+  <section class="page-title">
+    <div class="container">
+      <h2>{{page.title}}</h2>
+      {% if page.subtitle %}
+      <h4>{{page.subtitle}}</h4>
+      {% endif %}
+    </div>
+  </section>
   <main class="container">
-    <h2>{{page.title}}</h2>
     {{ content }}
   </main>
   {% include footer.html %}

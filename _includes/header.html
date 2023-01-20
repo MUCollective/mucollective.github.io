@@ -1,8 +1,12 @@
 <header class="container default">
   <div class="title-wrap">
-    <img src="{{ "assets/images/muLogoLight.png" | relative_url }}" class="logo">
+    <a href="{{ 'index' | relative_url }}">
+      <img src="{{ 'assets/images/muLogoLight.png' | relative_url }}" class="logo">
+    </a>
     <h1 class="title">
-      Midwest Uncertainty Collective
+      <a href="{{ 'index' | relative_url }}">
+        Midwest Uncertainty Collective
+      </a>
     </h1>
   </div>
   {% include nav.html %}

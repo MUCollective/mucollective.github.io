@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "Talks"
+title: "Selected Talks"
+# subtitle: "Selected Online Talks and Interviews"
 ---
 
 {% assign data = site.data.talks %}
 
 <div class="main-section-wrap">
   <section class="talk-list">
-  <h3 class="post-cat-title">Selected Online Talks and Interviews</h3>
   {% for item in data %}
     {% include talk-item.html
       title=item.title

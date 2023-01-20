@@ -1,6 +1,6 @@
 .talk-item {
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 
   h4 {
     display: inline-block;
@@ -28,7 +28,8 @@
     margin-top: 0.25rem;
     font-weight: 400;
     line-height: 130%;
-
+    color: #666666;
+    
     svg {
       width: auto;
       vertical-align: text-bottom;
